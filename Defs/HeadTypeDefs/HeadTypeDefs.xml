@@ -6,7 +6,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_Normal</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_Normal</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Cracked 1 -->
@@ -14,7 +14,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_CrackedOne</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_CrackedOne</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Cracked 2 -->
@@ -22,7 +22,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_CrackedTwo</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_CrackedTwo</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Painwheel -->
@@ -30,7 +30,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_Painwheel</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_Painwheel</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Kintsugi -->
@@ -38,7 +38,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_Kintsugi</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_Kintsugi</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Double-lined -->
@@ -46,7 +46,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_DoubleLine</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_DoubleLine</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Freckles -->
@@ -54,7 +54,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_Freckles</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_Freckles</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Dummy -->
@@ -62,7 +62,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_Dummy</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_Dummy</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Oriental -->
@@ -70,7 +70,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_Oriental</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_Oriental</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Soviet -->
@@ -78,7 +78,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_Soviet</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_Soviet</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- India -->
@@ -86,7 +86,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_India</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_India</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 	
 	<!-- Corroded -->
@@ -94,7 +94,7 @@
 	<HeadTypeDef ParentName="AverageBase">
         <defName>Nandroid_Corroded</defName>
         <graphicPath>Things/Droids/Nandroid/Head/Nandroid_Corroded</graphicPath>
-        <gender>Female</gender>
+        <gender>None</gender>
     </HeadTypeDef>
 
 </Defs>
