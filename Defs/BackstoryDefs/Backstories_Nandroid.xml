@@ -5,7 +5,7 @@
 		<title>Nandroid</title>
 		<titleShort>Nandroid</titleShort>
 		<baseDesc>{PAWN_nameDef} is a Sterling brand Nandroid that is capable of displaying higher intelligence, freshly opened from their box. What they make of their life is now up to them.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<slot>Childhood</slot>
 		<spawnCategories>
 			<li>NandroidFreshBox</li>
