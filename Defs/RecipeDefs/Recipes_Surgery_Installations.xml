@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--
+  <RecipeDef Name="ATR_surgeryMechanical" Abstract="True">
+        <effectWorking>Repair</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workSpeedStat>ATR_MechanicalOperationSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>16</workSkillLearnFactor>
+        <anesthetize>false</anesthetize>
+		<recipeUsers>
+			<li>ATR_Tier1Android</li>
+			<li>ATR_Tier2Android</li>
+			<li>ATR_Tier3Android</li>
+			<li>ATR_Tier4Android</li>
+			<li>ATR_Tier5Android</li>
+            <li>ATR_DroneChemUnit</li>
+            <li>ATR_DroneMineralUnit</li>
+            <li>ATR_DroneNutritionUnit</li>
+            <li>ATR_DroneTORT</li>
+            <li>ATR_DroneWatchdog</li>
+		</recipeUsers>
+    </RecipeDef>
+	-->
+  
+  <!-- Base Implant Installation Surgery Recipe -->
+    <!--
+	<RecipeDef Name="ATR_MechanicalSurgeryInstallImplantBase" ParentName="ATR_surgeryMechanical" Abstract="True">
+        <workerClass>ATReforged.Recipe_InstallImplantAndroid</workerClass>
+        <workAmount>2500</workAmount>
+        <skillRequirements>
+            <Crafting>5</Crafting>
+        </skillRequirements>
+        <ingredients>
+			<li>
+				<filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+				</filter>
+				<count>2</count>
+			</li>
+        </ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+        </fixedIngredientFilter>
+    </RecipeDef>
+	-->
+
+    <!-- Base Added Part Installation Surgery Recipe -->
+    <!--
+	<RecipeDef Name="ATR_MechanicalSurgeryInstallBodyPartBase" ParentName="ATR_MechanicalSurgeryInstallImplantBase" Abstract="True">
+        <workerClass>ATReforged.Recipe_InstallAndroidPart</workerClass>
+    </RecipeDef>
+	-->
+	
+    <!-- Base Remove Implant Surgery Recipe-->
+	<!--
+	<RecipeDef Name="ATR_MechanicalSurgeryRemoveImplantBase" ParentName="ATR_surgeryMechanical" Abstract="True">
+		<workerClass>Recipe_RemoveImplant</workerClass>
+		<workAmount>2000</workAmount>
+        <isViolation>true</isViolation>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	-->
+	
+	<!--
+	<RecipeDef Name="ATR_SurgeryMechanicalIndustrial" ParentName="ATR_MechanicalSurgeryInstallBodyPartBase" Abstract="True">
+		<jobString>Replacing component.</jobString>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+		<workAmount>1300</workAmount>
+		<anesthetize>false</anesthetize>
+	</RecipeDef>
+	-->
+	
+	<!-- Nandroid Stuff -->
+	
+	<RecipeDef ParentName="ATR_SurgeryMechanicalIndustrial">
+		<defName>InstallJarOpenerArm</defName>
+		<label>install jar opener arm augment</label>
+		<description>Installs a jar opener arm augment.</description>
+		<!-- <workerClass>ATReforged.Recipe_InstallAndroidPart</workerClass> -->
+		<jobString>Installing jar opener arm augment.</jobString>
+      <skillRequirements>
+		<Crafting>3</Crafting>
+      </skillRequirements>
+
+		<workAmount>1300</workAmount>
+		<surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+		<ingredients>
+			<!--<li>
+				<filter>
+					<thingDefs>
+						<li>RepairKitAT</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>-->
+			<li>
+				<filter>
+					<thingDefs>
+						<li>JarOpenerArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+					<thingDefs>
+						<!--<li>RepairKitAT</li>-->
+				<li>JarOpenerArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ATR_MechanicalArm</li>
+			<!--<li>RightMechanicalShoulder</li>
+			<li>LeftMechanicalShoulder</li>-->
+		</appliedOnFixedBodyParts>
+		<addsHediff>JarOpenerArm</addsHediff>
+		<recipeUsers>
+			<li>Nandroid</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ATR_SurgeryMechanicalIndustrial">
+		<defName>InstallStilettoArm</defName>
+		<label>install Stiletto hidden blade arm augment</label>
+		<description>Installs a Stiletto hidden blade arm augment.</description>
+		<!-- <workerClass>ATReforged.Recipe_InstallAndroidPart</workerClass> -->
+		<jobString>Installing Stiletto hidden blade arm augment.</jobString>
+      <skillRequirements>
+		<Crafting>3</Crafting>
+      </skillRequirements>
+
+		<workAmount>1300</workAmount>
+		<surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+		<ingredients>
+			<!--<li>
+				<filter>
+					<thingDefs>
+						<li>RepairKitAT</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>-->
+			<li>
+				<filter>
+					<thingDefs>
+						<li>StilettoArm</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+					<thingDefs>
+						<!--<li>RepairKitAT</li>-->
+				<li>StilettoArm</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ATR_MechanicalArm</li>
+			<!--<li>RightMechanicalShoulder</li>
+			<li>LeftMechanicalShoulder</li>-->
+		</appliedOnFixedBodyParts>
+		<addsHediff>StilettoArm</addsHediff>
+		<recipeUsers>
+			<li>Nandroid</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ATR_SurgeryMechanicalIndustrial">
+		<defName>InstallStilettoLeg</defName>
+		<label>install Stiletto hidden blade leg augment</label>
+		<description>Installs a Stiletto hidden blade leg augment.</description>
+		<!-- <workerClass>ATReforged.Recipe_InstallAndroidPart</workerClass> -->
+		<jobString>Installing Stiletto hidden blade leg augment.</jobString>
+      <skillRequirements>
+		<Crafting>3</Crafting>
+      </skillRequirements>
+
+		<workAmount>1300</workAmount>
+		<surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+		<ingredients>
+			<!--<li>
+				<filter>
+					<thingDefs>
+						<li>RepairKitAT</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>-->
+			<li>
+				<filter>
+					<thingDefs>
+						<li>StilettoLeg</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+					<thingDefs>
+						<!--<li>RepairKitAT</li>-->
+				<li>StilettoLeg</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ATR_MechanicalLeg</li>
+			<!--<li>RightMechanicalLeg</li>
+			<li>LeftMechanicalLeg</li>
+			<li>FrontRightMechanicalLeg</li>
+			<li>RearLeftMechanicalLeg</li>
+			<li>RearRightMechanicalLeg</li>
+			<li>FrontLeftMechanicalLeg</li>-->
+		</appliedOnFixedBodyParts>
+		<addsHediff>StilettoLeg</addsHediff>
+		<recipeUsers>
+			<li>Nandroid</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+</Defs>

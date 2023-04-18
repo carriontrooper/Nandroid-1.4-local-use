@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Base Body Part Thing -->
+    <!--
+	<ThingDef Name="ATR_MechBodyPartBase" ParentName="BodyPartBase" Abstract="True">
+        <thingCategories>
+            <li>ATR_BodyPartsMechanical</li>
+        </thingCategories>
+    </ThingDef>
+	-->
+	
+	<!--
+	<ThingDef Name="ATR_BodyPartIndustrialBase" ParentName="ATR_MechBodyPartBase" Abstract="True">
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/Items/BodyParts/OrganOrange</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+        <statBases>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>4</Mass>
+        </statBases>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>ATR_MechPartWorkbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+    </ThingDef>
+	-->
+  
+  <ThingDef ParentName="ATR_BodyPartIndustrialBase">
+    <defName>JarOpenerArm</defName>
+    <label>Sterling brand jar opener arm augment</label>
+    <description>Sterling manufactured these specifically for those hard-to-open jars. As a side effect, it provides a powerful arm.\n\n Can be installed on \n - T1 Androids \n - T2 Androids \n - T3 Androids \n - T4 Androids \n - T5 Androids</description>
+    <graphicData>
+      <texPath>Things/Items/BodyParts/OrganOrange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<costList>
+        <Steel>20</Steel>
+        <Plasteel>10</Plasteel>
+        <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <Mass>8</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Utility</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="ATR_BodyPartIndustrialBase">
+    <defName>StilettoArm</defName>
+    <label>Stiletto hidden blade arm augment</label>
+    <description>An illegal modification favored by assassins and illegal gladiators that is usually installed in the arm.\n\n Can be installed on \n - T1 Androids \n - T2 Androids \n - T3 Androids \n - T4 Androids \n - T5 Androids</description>
+    <graphicData>
+      <texPath>Things/Items/BodyParts/OrganOrange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<costList>
+        <Steel>20</Steel>
+        <Plasteel>20</Plasteel>
+        <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <Mass>8</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Utility</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+  <ThingDef ParentName="ATR_BodyPartIndustrialBase">
+    <defName>StilettoLeg</defName>
+    <label>Stiletto hidden blade leg augment</label>
+    <description>An illegal modification favored by assassins and illegal gladiators that is usually installed in the leg.\n\n Can be installed on \n - T1 Androids \n - T2 Androids \n - T3 Androids \n - T4 Androids \n - T5 Androids</description>
+    <graphicData>
+      <texPath>Things/Items/BodyParts/OrganOrange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<costList>
+        <Steel>20</Steel>
+        <Plasteel>20</Plasteel>
+        <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <Mass>8</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Utility</li>
+    </techHediffsTags>
+  </ThingDef>
+  
+</Defs>

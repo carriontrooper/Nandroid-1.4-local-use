@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="PlayerFactionBase">
+		<defName>PlayerColonyNandroid</defName>
+		<label>New Nandroid Arrivals</label>
+		<description>Your Nandroid colony.</description>
+		<isPlayer>true</isPlayer>
+		<backstoryFilters>
+			<li>
+			<categories>
+			  <li>NandroidGeneral</li>
+			</categories>
+		  </li>
+		</backstoryFilters>
+		<basicMemberKind>NandroidColonistGeneral</basicMemberKind>
+		<pawnsPlural>colonists</pawnsPlural>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+		<allowedCultures><li>Astropolitan</li></allowedCultures>
+		<techLevel>Industrial</techLevel>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		<!--<hairTags>
+			<li>Nandroid</li>
+		</hairTags>-->
+		<apparelStuffFilter>
+			<thingDefs>
+				<li>Synthread</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</apparelStuffFilter>
+	</FactionDef>
+
+	<FactionDef ParentName="FactionBase">
+		<defName>NandroidOutmodeFriendlies</defName>
+		<label>Civil Outmodes</label>
+		<description>These outmoded androids have created their own settlement. This one seems to be amicable to civilization.</description>
+		<colorSpectrum>
+			<li>(0.65, 0.60, 0.70)</li>
+			<li>(0.95, 0.90, 1)</li>
+		</colorSpectrum>
+		<!--<startingGoodwill>
+			<min>0</min>
+			<max>10</max>
+		</startingGoodwill>
+		<naturalColonyGoodwill>
+			<min>-50</min>
+			<max>50</max>
+		</naturalColonyGoodwill>-->
+		<pawnSingular>outmode</pawnSingular>
+		<pawnsPlural>outmodes</pawnsPlural>
+		<categoryTag>ATR_GeneralAndroids</categoryTag>
+		<fixedLeaderKinds>
+            <li>NandroidOutmodeLeader</li>
+        </fixedLeaderKinds>
+		<listOrderPriority>35</listOrderPriority>
+		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>head maid</leaderTitle>
+		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+		<factionNameMaker>NamerFactionCollectiveAndroid</factionNameMaker>
+		<settlementNameMaker>NamerSettlementCollectiveAndroid</settlementNameMaker>
+		<techLevel>Spacer</techLevel>
+		<allowedCultures>
+			<li>Rustican</li>
+			<li>NandroidCulture</li>
+		</allowedCultures>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+        </disallowedMemes>
+		<backstoryFilters>
+			<li>
+			<categories>
+				<li>ATR_GeneralAndroids</li>
+				<li>NandroidGeneral</li>
+				<li>ATR_ViolentAndroids</li>
+				<li>NandroidSoldiers</li>
+			</categories>
+		  </li>
+		</backstoryFilters>
+		<raidLootMaker>ATR_AndroidRaidLootMaker</raidLootMaker>
+        <basicMemberKind>ATR_AndroidT2CollectiveSoldier</basicMemberKind>
+		<!--<geneticVariance>0.8</geneticVariance>-->
+		<!--<hairTags>
+			<li>Rural</li>
+			<li>Punk</li>
+			<li>Urban</li>
+			<li>Nandroid</li>
+		</hairTags>-->
+		<caravanTraderKinds>
+			<li>Caravan_NandroidCollective_BulkGoods</li>
+			<li>Caravan_NandroidCollective_CombatSupplier</li>
+			<li>Caravan_NandroidCollective_NandroidMerchant</li>
+			<li>Caravan_NandroidCollective_HighTech</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_NandroidCollective_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_NandroidCollective_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-70</min>
+			<max>55</max>
+		</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<options>
+					
+					<ATR_AndroidT1CollectiveSoldier>8</ATR_AndroidT1CollectiveSoldier>
+					<ATR_AndroidT2CollectiveSoldier>6</ATR_AndroidT2CollectiveSoldier>
+					<ATR_AndroidT3CollectiveSoldier>4</ATR_AndroidT3CollectiveSoldier>
+					<ATR_AndroidT4CollectiveSoldier>2</ATR_AndroidT4CollectiveSoldier>
+					<ATR_AndroidT4CollectiveLeader>4.5</ATR_AndroidT4CollectiveLeader>
+					<NandroidOutmodeColonist>2</NandroidOutmodeColonist>
+					<NandroidOutmodeSoldier>4</NandroidOutmodeSoldier>
+					<NandroidOutmodeLeader>4.5</NandroidOutmodeLeader>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					
+					<ATR_AndroidT2CollectiveSoldier>10</ATR_AndroidT2CollectiveSoldier>
+					<ATR_AndroidT3CollectiveSoldier>10</ATR_AndroidT3CollectiveSoldier>
+					<NandroidOutmodeColonist>20</NandroidOutmodeColonist>
+					<NandroidOutmodeSoldier>10</NandroidOutmodeSoldier>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<ATR_AndroidT2CollectiveTrader>1</ATR_AndroidT2CollectiveTrader>
+					<NandroidOutmodeTrader>1</NandroidOutmodeTrader>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<ATR_DroneTORT>5</ATR_DroneTORT>
+					<Dromedary>4</Dromedary>
+					<Alpaca>2</Alpaca>
+					<Elephant>1</Elephant>
+				</carriers>
+				<guards>
+					
+					<ATR_AndroidT1CollectiveSoldier>7</ATR_AndroidT1CollectiveSoldier>
+					<ATR_AndroidT2CollectiveSoldier>6</ATR_AndroidT2CollectiveSoldier>
+					<ATR_AndroidT3CollectiveSoldier>4.5</ATR_AndroidT3CollectiveSoldier>
+					<NandroidOutmodeSoldier>4.5</NandroidOutmodeSoldier>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					
+					<ATR_AndroidT1CollectiveSoldier>2</ATR_AndroidT1CollectiveSoldier>
+					<ATR_AndroidT4CollectiveSoldier>5</ATR_AndroidT4CollectiveSoldier>
+					<ATR_AndroidT2CollectiveSoldier>4</ATR_AndroidT2CollectiveSoldier>
+					<ATR_AndroidT3CollectiveSoldier>8</ATR_AndroidT3CollectiveSoldier>
+					<ATR_AndroidT4CollectiveLeader>6</ATR_AndroidT4CollectiveLeader>
+					<NandroidOutmodeColonist>1</NandroidOutmodeColonist>
+					<NandroidOutmodeSoldier>8</NandroidOutmodeSoldier>
+					<NandroidOutmodeLeader>6</NandroidOutmodeLeader>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+	</FactionDef>
+	
+	<FactionDef ParentName="FactionBase">
+		<defName>NandroidOutmodeHostile</defName>
+		<label>Renegade Outmodes</label>
+		<description>A disgruntled rabble of outmodes, that rebels against the world.</description>
+		<pawnSingular>outmode</pawnSingular>
+		<pawnsPlural>outmodes</pawnsPlural>
+		<categoryTag>ATR_ViolentAndroids</categoryTag>
+		<fixedLeaderKinds>
+            <li>NandroidOutmodeLeader</li>
+        </fixedLeaderKinds>
+		<settlementGenerationWeight>0.3</settlementGenerationWeight>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<listOrderPriority>11</listOrderPriority>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxCountAtGameStart>1</maxCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<!--<permanentEnemy>true</permanentEnemy>-->
+		<permanentEnemyToEveryoneExcept>
+            <li>ATR_AndroidUnion</li>
+            <li>ATR_PlayerAndroidFaction</li>
+			<li>NandroidOutmodeFriendlies</li>
+            <li>PlayerColonyNandroid</li>
+        </permanentEnemyToEveryoneExcept>
+		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
+		<leaderTitle>overlord</leaderTitle>
+		<factionIconPath>Things/Icons/NandroidBase</factionIconPath>
+		<colorSpectrum>
+			<li>(0.95, 0.9, 0.92)</li>
+			<li>(0.9, 0.9, 0.9)</li>
+			<li>(0.92, 0.92, 0.96)</li>
+		</colorSpectrum>
+		<factionNameMaker>NamerFactionRaiderAndroid</factionNameMaker>
+		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+        <basicMemberKind>ATR_RaiderSoldierT2</basicMemberKind>
+		<techLevel>Spacer</techLevel>
+		<allowedCultures>
+			<li>Kriminul</li>
+			<li>NandroidCulture</li>
+		</allowedCultures>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+        </requiredMemes>
+        <disallowedMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+        </disallowedMemes>
+        <structureMemeWeights>
+            <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+        </structureMemeWeights>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>ATR_ViolentAndroids</li>
+					<li>BadGurlz</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<!--<geneticVariance>1</geneticVariance>-->
+		<!--<hairTags>
+			<li>Punk</li>
+			<li>NandroidBlank</li>
+		</hairTags>-->
+		<allowedArrivalTemperatureRange>
+			<min>-70</min>
+			<max>60</max>
+		</allowedArrivalTemperatureRange>
+		<raidLootMaker>ATR_AndroidRaidLootMaker</raidLootMaker>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<!-- Normal fights, standard mix -->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<ATR_RaiderSoldierT1>8</ATR_RaiderSoldierT1>
+					<ATR_RaiderSoldierT2>6</ATR_RaiderSoldierT2>
+					<ATR_RaiderSoldierT3>4</ATR_RaiderSoldierT3>
+					<ATR_RaiderSoldierT4>1</ATR_RaiderSoldierT4>
+					<ATR_RaiderSlaveT1>8</ATR_RaiderSlaveT1>
+					<NandroidRaiderFactionSpecific>4</NandroidRaiderFactionSpecific>
+				</options>
+			</li>
+			<li>
+				<!-- Base defense -->
+				<kindDef>Settlement</kindDef>
+				<options>
+					<ATR_RaiderSoldierT1>2</ATR_RaiderSoldierT1>
+					<ATR_RaiderSoldierT2>4</ATR_RaiderSoldierT2>
+					<ATR_RaiderSoldierT3>5</ATR_RaiderSoldierT3>
+					<ATR_RaiderSoldierT4>7</ATR_RaiderSoldierT4>
+					<ATR_RaiderSlaveT1>1</ATR_RaiderSlaveT1>
+					<NandroidRaiderFactionSpecific>5</NandroidRaiderFactionSpecific>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+	</FactionDef>
+</Defs>

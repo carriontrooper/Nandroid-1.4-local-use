@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef>
+    <defName>NandroidRaiderFactionSpecific</defName>
+    <label>Nandroid Raider</label>
+    <labelPlural>Raider nandroids</labelPlural>
+	<backstoryFiltersOverride>
+      <li>
+		<categories>
+		  <li>BadGurlz</li>
+		  <li>Raider</li>
+		</categories>
+	  </li>
+    </backstoryFiltersOverride>
+	    <!--<baseRecruitDifficulty>0.92</baseRecruitDifficulty>-->
+	<race>Nandroid</race>
+    <combatPower>170</combatPower>
+	<maxGenerationAge>17</maxGenerationAge>
+			<defaultFactionType>NandroidOutmodeHostile</defaultFactionType>
+		<aiAvoidCover>true</aiAvoidCover>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.4</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+	  <li>NandroidClothing</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>500</min>
+      <max>850</max>
+    </apparelMoney>
+    <apparelAllowHeadgearChance>0.05</apparelAllowHeadgearChance>
+    <weaponMoney>
+      <min>600</min>
+      <max>1200</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+	  <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>2000</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.28</techHediffsChance>
+	<initialResistanceRange>13~21</initialResistanceRange>
+	<initialWillRange>0~0</initialWillRange>
+  </PawnKindDef>
+  
+</Defs>

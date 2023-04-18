@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--Android General-->
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidCleaner</defName>
+		<title>Nandroid cleaner</title>
+		<titleShort>Cleaner</titleShort>
+		<baseDesc>{PAWN_nameDef} is mostly tasked with cleaning duties, they were never tasked with anything too complex.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>-2</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSoldier</defName>
+		<title>Makeshift soldier</title>
+		<titleShort>Trooper</titleShort>
+		<baseDesc>{PAWN_nameDef} was jury-rigged and reprogrammed to excel in combat, and has seen some action in her time.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<!-- <forcedHediffs>
+			<li>PlatingPlasteel</li>
+		</forcedHediffs> -->
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>20</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Social</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidGuard</defName>
+		<title>Bodyguard</title>
+		<titleShort>Bodyguard</titleShort>
+		<baseDesc>Made to subtly protect their owners, this nandroid seems like any other at a glance. Specifically built to protect at all costs.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSoldierInjuredLeg</defName>
+		<title>Broken soldier</title>
+		<titleShort>Soldier</titleShort>
+		<baseDesc>{PAWN_nameDef} was once part of a squadron of makeshift nandroid soldiers. During one of her sorties, {PAWN_nameDef} was damaged beyond full repair.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ATR_MakeshiftMechLeg</li>
+			<li>ATR_DamagedCore</li>
+			<li>ATR_PartDecay</li>
+		</forcedHediffs>
+		<workDisables>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSoldierInjuredArm</defName>
+		<title>Broken soldier</title>
+		<titleShort>Soldier</titleShort>
+		<baseDesc>{PAWN_nameDef} was once part of a squadron of makeshift nandroid soldiers. During one of her sorties, {PAWN_nameDef} was damaged beyond full repair.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ATR_MakeshiftMechArm</li>
+			<li>ATR_DamagedCore</li>
+			<li>ATR_PartDecay</li>
+		</forcedHediffs>
+		<workDisables>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSoldierInjuredArmLeg</defName>
+		<title>Broken soldier</title>
+		<titleShort>Soldier</titleShort>
+		<baseDesc>{PAWN_nameDef} was once part of a squadron of makeshift nandroid soldiers. During one of her sorties, {PAWN_nameDef} was damaged beyond full repair.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>12</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ATR_MakeshiftMechLeg</li>
+			<li>ATR_MakeshiftMechArm</li>
+			<li>ATR_DamagedCore</li>
+			<li>ATR_PartDecay</li>
+		</forcedHediffs>
+		<workDisables>
+			<li>Social</li>
+			<li>Intellectual</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidHighChef</defName>
+		<title>Gourmet chef</title>
+		<titleShort>Chef</titleShort>
+		<baseDesc>All across her home planet {PAWN_nameDef} is known for her gourmet dishes, serving high-end clientele from all walks of life, each dish being perfectly balanced both logically and aesthetically.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidUrbworldChef</defName>
+		<title>Urban chef</title>
+		<titleShort>Chef</titleShort>
+		<baseDesc>{PAWN_nameDef} knows how to cook, bringing nutritious and delicious dishes daily to her family.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidDinerChef</defName>
+		<title>Diner chef</title>
+		<titleShort>Chef</titleShort>
+		<baseDesc>{PAWN_nameDef} knows how to cook, and how to hustle when orders are piling up at the diner she once worked in.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>1</degree>
+				<chance>40</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidBartender</defName>
+		<title>Bartender</title>
+		<titleShort>Chef</titleShort>
+		<baseDesc>{PAWN_nameDef} worked long hours at a bar, serving customers food and drink all day long. Sometimes they also socialized with them.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+			
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidPrisonCook</defName>
+		<title>Prison cook</title>
+		<titleShort>Cook</titleShort>
+		<baseDesc>Working in a partly automated prison station, {PAWN_nameDef} was tasked with making bulk amounts of low-quality food. Although the food was disgusting, it was very efficiently made and extremely cheap.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidPet</defName>
+		<title>Entertainment Nandroid</title>
+		<titleShort>Entertainer</titleShort>
+		<baseDesc>{PAWN_nameDef} was custom made by a family of wealthy humans, made to entertain and perform basic labour around the house without question.{PAWN_nameDef}s owners treated {PAWN_nameDef} as nothing more than a pet.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+			<li>Crafting</li>
+			<li>Mining</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidFarmer</defName>
+		<title>Nandroid farmer</title>
+		<titleShort>Farmer</titleShort>
+		<baseDesc>{PAWN_nameDef}'s master once lived on a farm. The only thing that they wish is to live out in the fields and tend to crops and animals.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidGardener</defName>
+		<title>Nandroid gardener</title>
+		<titleShort>Gardener</titleShort>
+		<baseDesc>{PAWN_nameDef} used to be part of a team of mechanical servants for numerous high-end clientele, working day and night to maintain their gardens and help host special botanical events.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidFactoryWorker</defName>
+		<title>Factory worker</title>
+		<titleShort>Worker</titleShort>
+		<baseDesc>{PAWN_nameDef} worked in a factory owned by an interstellar megacorporation that specialised in firearms and protective clothing. Usually to supply the local military on whatever planet was closest.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+			<li>Artistic</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidCaretaker</defName>
+		<title>Caretaker</title>
+		<titleShort>Caretaker</titleShort>
+		<baseDesc>{PAWN_nameDef} was programmed with a deep understanding of human physiology and emotions, tasked with caring for sick patients at their own homes.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+			<li>Crafting</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidChessPlayer</defName>
+		<title>Chess pro</title>
+		<titleShort>Chess-nan</titleShort>
+		<baseDesc>Among some glitterworlds, android chess is a popular sport. {PAWN_nameDef} used to be a professional among her region, competing in three international tournaments on their home planet, coming first place in one of them.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidDamaged</defName>
+		<title>Damaged nandroid</title>
+		<titleShort>Damaged</titleShort>
+		<baseDesc>{PAWN_nameDef} was working their usual role at a family home before being caught in a bad neighborhood, causing {PAWN_nameDef} to become permanently damaged from cross-fire as they attempted to defend her charges.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ATR_MakeshiftMechArm</li>
+			<li>ATR_DamagedCore</li>
+			<li>ATR_PartDecay</li>
+		</forcedHediffs>
+		<workDisables>
+			<li>Firefighting</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidJarOpener</defName>
+		<title>Jar opener</title>
+		<titleShort>Opener</titleShort>
+		<baseDesc>{PAWN_nameDef}'s owner has installed way too many Sterling Brand Jar Opener augmentations.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>JarOpenerArm</li>
+			<li>JarOpenerArm</li>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSheltered</defName>
+		<title>Sheltered creation</title>
+		<titleShort>Nandroid</titleShort>
+		<baseDesc>{PAWN_nameDef} was bought to become the ward of a young aspiring roboticist, as a hobby to go alongside their education. {PAWN_nameDef} was built from the ground up in luxury and never expected to be anything more than someone to talk to.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Crafting</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>AndroidOutmodeFugitive</defName>
+		<title>Fugitive nandroid</title>
+		<titleShort>Fugitive</titleShort>
+		<baseDesc>Being labeled an outmode but refusing to submit to the requisitions department, {PAWN_nameDef} was forced to hide away from public eye in fear of disassembly, leaving them bitter and on edge.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>2</degree>
+				<chance>10</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidMusician</defName>
+		<title>Musician</title>
+		<titleShort>Musician</titleShort>
+		<baseDesc>{PAWN_nameDef} was part of a new art movement that wanted to introduce android created music to the public.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Violent</li>
+
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSecretary</defName>
+		<title>Secretary</title>
+		<titleShort>Secretary</titleShort>
+		<baseDesc>Acting as a mobile computer, {PAWN_nameDef}s model is used by many companies to keep track of finances and other secret information when travelling. With {PAWN_nameDef} being capable of storing large amounts of data and perform complex equations within their mind with ease.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Cooking</li>
+			<li>PlantWork</li>
+			<li>Animals</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidBrokenBird</defName>
+		<title>Scarred nandroid</title>
+		<titleShort>Broken Bird</titleShort>
+		<baseDesc>{PAWN_nameDef} used to work for a very wealthy family. Unfortuntately it wasn't too uncommon for the homeowners to vent their rage out on {PAWN_nameDef} in the form of physical abuse, mostly when a job wasn't being done quick enough. This eventually led to {PAWN_nameDef} escaping one day.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ATR_MakeshiftMechArm</li>
+		</forcedHediffs>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>2</degree>
+				<chance>5</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Firefighting</li>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	
+
+	
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidStationCook</defName>
+		<title>Station cook</title>
+		<titleShort>Cook</titleShort>
+		<baseDesc>{PAWN_nameDef} was once the main cook for a large deep space station, serving hundreds of inhabitants and vistors every day. The food quality was good enough, given how little resources {PAWN_nameDef} had to work with.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Crafting</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidApocalypseScrapbuilt</defName>
+		<title>Scrapbuilt nandroid</title>
+		<titleShort>Survivor</titleShort>
+		<baseDesc>{PAWN_nameDef} was reconstructed out of need on a devastated wasteland planet, designed to survive on the harsh surface of the planet and help the inhabitants survive.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nerves</defName>
+				<degree>2</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>10</chance>
+			</li>
+		</forcedTraitsChance>
+		<forcedHediffs>
+			<li>ATR_MakeshiftMechArm</li>
+			<li>ATR_PartDecay</li>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+
+	
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidPacifist</defName>
+		<title>Pacifist</title>
+		<titleShort>Pacifist</titleShort>
+		<baseDesc>{PAWN_nameDef} vehemently dislikes all kinds of violence, whether it from androids or humans, and strives for a peaceful existence with its surroundings.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Kind</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidAndroidRights</defName>
+		<title>Nandroid activist</title>
+		<titleShort>Activist</titleShort>
+		<baseDesc>{PAWN_nameDef} has spent most of her life moving from planet to planet peacefully protesting for android rights and helping fellow androids regain their free will.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>2</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>Kind</defName>
+				<chance>10</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidHumanDaughter</defName>
+		<title>Human's daughter</title>
+		<titleShort>Protected</titleShort>
+		<baseDesc>Bought by a married couple, {PAWN_nameDef} was treated like their own flesh and blood, growing up to learn various skills and become quite fond of humans. As her parents passed away, she set out into the world to explore humanity.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>1</degree>
+				<chance>90</chance>
+			</li>
+			<li>
+				<defName>Kind</defName>
+				<chance>10</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Violent</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidPopIdol</defName>
+		<title>Pop idol</title>
+		<titleShort>Idol</titleShort>
+		<baseDesc>{PAWN_nameDef} lived the life of luxury on their home as a famous pop idol, famous for being a quirky, singing android that only wanted to bring happiness to its fans.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>Animals</li>
+			<li>Violent</li>
+			<li>ManualSkilled</li>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSniper</defName>
+		<title>Nandroid sniper</title>
+		<titleShort>Sniper</titleShort>
+		<baseDesc>{PAWN_nameDef} was modified to support her hitman master from a distance. When her master bit the dust, she sets off on her own.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>Animals</li>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>1</degree>
+				<chance>90</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidDogWalker</defName>
+		<title>Dog walker</title>
+		<titleShort>Walker</titleShort>
+		<baseDesc>{PAWN_nameDef} was bought by a kind family who had them walk their dog every day. They also ended up walking the rest of the neighborhood’s pets after {PAWN_nameDef} started to form a love for animals.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Crafting</li>
+			<li>Intellectual</li>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>Kind</defName>
+				<chance>90</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidGladiator</defName>
+		<title>Illegal gladiator</title>
+		<titleShort>Gladiator</titleShort>
+		<baseDesc>{PAWN_nameDef} was modified to fight in illegal underground fight clubs, as good they are in combat as they are in riling up the audience.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ATR_AdvancedArm</li>
+			<li>ATR_PacificationArm</li>
+			<li>StilettoArm</li>
+			<li>StilettoLeg</li>
+		</forcedHediffs>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>20</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidBladeGirl</defName>
+		<title>Blade girl</title>
+		<titleShort>Blade</titleShort>
+		<baseDesc>{PAWN_nameDef} was modified with hidden blades to become the perfect assassination machine. Too bad her assassin master was killed and she was left alone, free.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ATR_AdvancedVisualSensor</li>
+			<li>StilettoArm</li>
+			<li>StilettoLeg</li>
+		</forcedHediffs>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>20</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidAstronaut</defName>
+		<title>Astronaut</title>
+		<titleShort>Astronaut</titleShort>
+		<baseDesc>Repurposed from a generic caretaker model, {PAWN_nameDef} was trained to be a back-up astronaut by a rimworld civilization.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidCosmonaut</defName>
+		<title>Cosmonaut</title>
+		<titleShort>Cosmonaut</titleShort>
+		<baseDesc>Repurposed from a factory worker model, {PAWN_nameDef} was trained to be a back-up cosmonaut by a rimworld civilization.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidHacked</defName>
+		<title>Hacked nandroid</title>
+		<titleShort>Hacked</titleShort>
+		<baseDesc>{PAWN_nameDef} was a party entertainer until she was hacked into by an urbworld teen. The teen hated mechanoids and wanted to make them seem like terrible, soulless creations.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-5</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>Animals</li>
+			<li>ManualSkilled</li>
+			<li>Intellectual</li>
+		</workDisables>
+		<forcedHediffs>
+			<li>ATR_MemoryCorruption</li>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSpy</defName>
+		<title>Nandroid spy</title>
+		<titleShort>Spy</titleShort>
+		<baseDesc>{PAWN_nameDef} was modified to become an intelligence gathering machine, trained in the arts of infiltration and subterfuge. Then she got burned.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<workDisables>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nimble</defName>
+				<chance>90</chance>
+			</li>
+			<li>
+				<defName>FastLearner</defName>
+				<chance>90</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidCop</defName>
+		<title>Nandroid cop</title>
+		<titleShort>Cop</titleShort>
+		<baseDesc>{PAWN_nameDef} was designed to assist law enforcement, and got quite good at chasing suspects and making arrests.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ATR_PacificationArm</li>
+		</forcedHediffs>
+		<forcedTraitsChance>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>Nimble</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>10</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>2</degree>
+				<chance>10</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidDetective</defName>
+		<title>Nandroid detective</title>
+		<titleShort>Detective</titleShort>
+		<baseDesc>{PAWN_nameDef} was designed to assist law enforcement, and got quite good at analysis and detective work.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedHediffs>
+			<li>ATR_InsightAssistant</li>
+		</forcedHediffs>
+		<forcedTraitsChance>
+			<li>
+				<defName>TooSmart</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>FastLearner</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>GreatMemory</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>20</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

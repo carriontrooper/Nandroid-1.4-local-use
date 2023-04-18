@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidFreshBackstory</defName>
+		<title>Nandroid</title>
+		<titleShort>Nandroid</titleShort>
+		<baseDesc>{PAWN_nameDef} is a Sterling brand Nandroid that is capable of displaying higher intelligence, freshly opened from their box. What they make of their life is now up to them.</baseDesc>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>NandroidFreshBox</li>
+		</spawnCategories>
+		<skillGains>
+          <li>
+            <key>Shooting</key>
+            <value>1</value>
+          </li>
+          <li>
+            <key>Melee</key>
+            <value>1</value>
+          </li>
+		  <li>
+            <key>Construction</key>
+            <value>2</value>
+          </li>
+		  <li>
+            <key>Mining</key>
+            <value>1</value>
+          </li>
+		  <li>
+            <key>Cooking</key>
+            <value>5</value>
+          </li>
+		  <li>
+            <key>Plants</key>
+            <value>1</value>
+          </li>
+		  <li>
+            <key>Animals</key>
+            <value>1</value>
+          </li>
+		  <li>
+            <key>Crafting</key>
+            <value>2</value>
+          </li>
+		  <li>
+            <key>Artistic</key>
+            <value>1</value>
+          </li>
+		  <li>
+            <key>Medicine</key>
+            <value>2</value>
+          </li>
+		  <li>
+            <key>Social</key>
+            <value>5</value>
+          </li>
+		  <li>
+            <key>Intellectual</key>
+            <value>2</value>
+          </li>
+        </skillGains>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

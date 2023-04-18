@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+
+    <!--<ThingDef ParentName="BuildingCreatorBase">
+        <defName>NandroidGeneratorAI</defName>
+        <label>Nandroid</label>
+        <comps>
+		<li Class="MOARANDROIDS.SpawnerCompProperties_GenericSpawner">
+            <compClass>MOARANDROIDS.CompAndroidSpawnerGeneric</compClass>
+			<Pawnkind>NandroidColonistUnbox</Pawnkind>
+		</li>
+        </comps>
+    </ThingDef>-->
+	
+	<ThingDef ParentName="ATR_MakeableGeneratorBase">
+        <defName>NandroidGenerator</defName>
+        <label>Nandroid</label>
+        <description>A Sterling Industries Nandroid, a type of robotic maids popular in urbworlds for their household capabilities.</description>
+        <graphicData>
+            <texPath>Things/Droids/Nandroid/NandroidExemplar</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <workAmount>18500</workAmount>
+            <researchPrerequisite>ATR_T3Androids</researchPrerequisite>
+        </recipeMaker>
+        <costList>
+            <Steel>85</Steel>
+            <Plasteel>80</Plasteel>
+            <Gold>2</Gold>
+            <ComponentIndustrial>15</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="ATReforged.CompProperties_GenericSpawner">
+                <pawnKind>NandroidColonistUnbox</pawnKind>
+            </li>
+        </comps>
+    </ThingDef>
+
+    
+</Defs>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+	<!-- <Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android1Tier"]/alienRace/generalSettings/notXenophobistTowards</xpath>
+		<success>Always</success>
+	    <value>
+	    	<li>Nandroid</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android2Tier"]/alienRace/generalSettings/notXenophobistTowards</xpath>
+		<success>Always</success>
+	    <value>
+	    	<li>Nandroid</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android3Tier"]/alienRace/generalSettings/notXenophobistTowards</xpath>
+		<success>Always</success>
+	    <value>
+	    	<li>Nandroid</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android4Tier"]/alienRace/generalSettings/notXenophobistTowards</xpath>
+		<success>Always</success>
+	    <value>
+	    	<li>Nandroid</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="M7Mech"]/alienRace/generalSettings/notXenophobistTowards</xpath>
+		<success>Always</success>
+	    <value>
+	    	<li>Nandroid</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+	    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="M8Mech"]/alienRace/generalSettings/notXenophobistTowards</xpath>
+		<success>Always</success>
+	    <value>
+	    	<li>Nandroid</li>
+		</value>
+	</Operation> -->
+</Patch>

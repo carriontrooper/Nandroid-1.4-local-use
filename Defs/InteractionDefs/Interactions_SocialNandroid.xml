@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <InteractionDef>
+    <defName>NandroidChat</defName>
+    <label>talked about Nandroids</label>
+    <workerClass>InteractionWorker_DeepTalk</workerClass>
+    <symbol>Things/Motes/NandroidMote</symbol>
+    <initiatorThought>NandroidChat</initiatorThought>
+    <initiatorXpGainSkill>Social</initiatorXpGainSkill>
+    <initiatorXpGainAmount>50</initiatorXpGainAmount>
+    <recipientThought>NandroidChat</recipientThought>
+    <recipientXpGainSkill>Social</recipientXpGainSkill>
+    <recipientXpGainAmount>50</recipientXpGainAmount>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[talkedabout] with [RECIPIENT_nameDef] about Nandroids.</li>
+	
+		<li>talkedabout->communicated thoughts</li>
+        <li>talkedabout->exchanged thoughts</li>
+        <li>talkedabout->exchanged ideas</li>
+        <li>talkedabout->shared views</li>
+        <li>talkedabout->shared beliefs</li>
+        <li>talkedabout->discussed</li>
+        <li>talkedabout->had a heartfelt conversation</li>
+        <li>talkedabout->talked</li>
+        <li>talkedabout->talked deeply</li>
+        <li>talkedabout->spoke</li>
+		
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  
+  <InteractionDef>
+    <defName>RoboticsChat</defName>
+    <label>talked about robotics</label>
+    <workerClass>InteractionWorker_DeepTalk</workerClass>
+    <symbol>Things/Motes/Android1</symbol>
+    <initiatorThought>RoboticsChat</initiatorThought>
+    <initiatorXpGainSkill>Crafting</initiatorXpGainSkill>
+    <initiatorXpGainAmount>50</initiatorXpGainAmount>
+    <recipientThought>RoboticsChat</recipientThought>
+    <recipientXpGainSkill>Crafting</recipientXpGainSkill>
+    <recipientXpGainAmount>50</recipientXpGainAmount>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[talkedabout] with [RECIPIENT_nameDef] about robotics.</li>
+		
+		<li>talkedabout->communicated thoughts</li>
+        <li>talkedabout->exchanged thoughts</li>
+        <li>talkedabout->exchanged ideas</li>
+        <li>talkedabout->shared views</li>
+        <li>talkedabout->shared beliefs</li>
+        <li>talkedabout->discussed</li>
+        <li>talkedabout->had a heartfelt conversation</li>
+        <li>talkedabout->talked</li>
+        <li>talkedabout->talked deeply</li>
+        <li>talkedabout->spoke</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+
+  <InteractionDef>
+    <defName>RoboticsChat2</defName>
+    <label>talked about androids</label>
+    <workerClass>InteractionWorker_DeepTalk</workerClass>
+    <symbol>Things/Motes/Android2</symbol>
+    <initiatorThought>AndroidsChat</initiatorThought>
+    <initiatorXpGainSkill>Crafting</initiatorXpGainSkill>
+    <initiatorXpGainAmount>100</initiatorXpGainAmount>
+    <recipientThought>AndroidsChat</recipientThought>
+    <recipientXpGainSkill>Crafting</recipientXpGainSkill>
+    <recipientXpGainAmount>100</recipientXpGainAmount>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[talkedabout] with [RECIPIENT_nameDef] about the future of androids.</li>
+	
+		<li>talkedabout->communicated thoughts</li>
+        <li>talkedabout->exchanged thoughts</li>
+        <li>talkedabout->exchanged ideas</li>
+        <li>talkedabout->shared views</li>
+        <li>talkedabout->shared beliefs</li>
+        <li>talkedabout->discussed</li>
+        <li>talkedabout->had a heartfelt conversation</li>
+        <li>talkedabout->talked</li>
+        <li>talkedabout->talked deeply</li>
+        <li>talkedabout->spoke</li>
+		
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  
+  <InteractionDef>
+    <defName>ATPP_SkyMindChat</defName>
+    <label>talked about SkyMind</label>
+    <workerClass>InteractionWorker_DeepTalk</workerClass>
+    <symbol>Things/Motes/ATPP_SkyCloud</symbol>
+    <initiatorThought>ATPP_SkyMindChatThought</initiatorThought>
+    <initiatorXpGainSkill>Intellectual</initiatorXpGainSkill>
+    <initiatorXpGainAmount>100</initiatorXpGainAmount>
+    <recipientThought>ATPP_SkyMindChatThought</recipientThought>
+    <recipientXpGainSkill>Intellectual</recipientXpGainSkill>
+    <recipientXpGainAmount>100</recipientXpGainAmount>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[talkedabout] with [RECIPIENT_nameDef] about immortality through SkyMind and SkyClouds Cores.</li>
+	
+		<li>talkedabout->communicated thoughts</li>
+        <li>talkedabout->exchanged thoughts</li>
+        <li>talkedabout->exchanged ideas</li>
+        <li>talkedabout->shared views</li>
+        <li>talkedabout->shared beliefs</li>
+        <li>talkedabout->discussed</li>
+        <li>talkedabout->had a heartfelt conversation</li>
+        <li>talkedabout->talked</li>
+        <li>talkedabout->talked deeply</li>
+        <li>talkedabout->spoke</li>
+		
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+
+  
+</Defs>

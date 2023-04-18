@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.ThingDef_AlienRace ParentName="BasePawn"> <!-- ParentName="ATR_BaseMechanicalPawn" -->
+		<defName>Nandroid</defName>
+		<label>Nandroid</label>
+		<description>A Sterling Electronics Nandroid</description>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<alienRace>
+			<graphicPaths>
+					<body>
+						<path>Things/Droids/Nandroid/body/Naked_Female</path>
+						<genderGraphics>
+							<Male>Things/Droids/Nandroid/body/Naked_Female</Male> <!-- Botlers not yet -->
+							<Female>Things/Droids/Nandroid/body/Naked_Female</Female>
+							<None>Things/Droids/Nandroid/body/Naked_Female</None>
+						</genderGraphics>
+					</body>
+					<head>Things/Droids/Nandroid/Head/</head>
+					<!--<head>
+						<path>Things/Droids/Nandroid/Head/</path>
+						<headtypeGraphics>
+							<Nandroid_Normal>Things/Droids/Nandroid/Head/Nandroid_Normal</Nandroid_Normal>
+							<Nandroid_CrackedOne>Things/Droids/Nandroid/Head/Nandroid_Cracked1</Nandroid_CrackedOne>
+							<Nandroid_CrackedTwo>Things/Droids/Nandroid/Head/Nandroid_Cracked2</Nandroid_CrackedTwo>
+							<Nandroid_Painwheel>Things/Droids/Nandroid/Head/Nandroid_Painwheel</Nandroid_Painwheel>
+							<Nandroid_Kintsugi>Things/Droids/Nandroid/Head/Nandroid_Kintsugi</Nandroid_Kintsugi>
+							<Nandroid_DoubleLine>Things/Droids/Nandroid/Head/Nandroid_DoubleLine</Nandroid_DoubleLine>
+							<Nandroid_Freckles>Things/Droids/Nandroid/Head/Nandroid_Freckles</Nandroid_Freckles>
+							<Nandroid_Dummy>Things/Droids/Nandroid/Head/Nandroid_Dummy</Nandroid_Dummy>
+							<Nandroid_Oriental>Things/Droids/Nandroid/Head/Nandroid_Oriental</Nandroid_Oriental>
+							<Nandroid_Soviet>Things/Droids/Nandroid/Head/Nandroid_Soviet</Nandroid_Soviet>
+							<Nandroid_India>Things/Droids/Nandroid/Head/Nandroid_India</Nandroid_India>
+							<Nandroid_Corroded>Things/Droids/Nandroid/Head/Nandroid_Corroded</Nandroid_Corroded>
+						</headtypeGraphics>-->
+						<!--<genderGraphics>
+							<Male>Things/Droids/Nandroid/Head/Female_Nandroid</Male> 
+							<Female>Things/Droids/Nandroid/Head/Female_Nandroid</Female>
+							<None>Things/Droids/Nandroid/Head/Female_Nandroid</None>
+						</genderGraphics>
+					</head>-->
+					<skinShader>Cutout</skinShader>
+			</graphicPaths>
+
+			<!--<traitCount>2~3</traitCount>
+			<canLayDown>true</canLayDown>-->
+			<raceRestriction>
+				<traitList>
+					<li>ATR_FeelingsTowardOrganics</li>
+				</traitList>
+				<onlyHaveRaceRestrictedGenes>true</onlyHaveRaceRestrictedGenes>
+			</raceRestriction>
+			
+			<generalSettings>
+			<!--<useOnlyPawnkindBackstories>true</useOnlyPawnkindBackstories>-->
+			<maleGenderProbability>0</maleGenderProbability>
+			<allowHumanBios>false</allowHumanBios>
+				<maxDamageForSocialfight>5</maxDamageForSocialfight>
+				<immuneToAge>false</immuneToAge>
+				<disallowedTraits>
+					<li>
+						<defName>DrugDesire</defName>
+					</li>
+					<li>
+						<defName>AnnoyingVoice</defName>
+					</li>
+					<li>
+						<defName>CreepyBreathing</defName>
+					</li>
+					<li>
+						<defName>Pyromaniac</defName>
+					</li>
+					<li>
+						<defName>Wimp</defName>
+					</li>
+					<li>
+						<defName>Masochist</defName>
+					</li>
+					<li>
+						<defName>Nudist</defName>
+					</li>
+					<li>
+						<defName>NightOwl</defName>
+					</li>
+					<!--<li>
+						<defName>Jealous</defName>
+					</li>-->
+					<li>
+						<defName>Transhumanist</defName>
+					</li>
+					<li>
+						<defName>BodyPurist</defName>
+					</li>
+					<!--<li>
+						<defName>Beauty</defName>
+					</li>-->
+					<li>
+						<defName>Immunity</defName>
+					</li>
+					<!--<li>
+						<defName>Tough</defName>
+					</li>-->
+					<!--<li>
+						<defName>MechAtlas</defName>
+					</li>-->
+				</disallowedTraits>
+		  <!-- <notXenophobistTowards>
+              <li>Human</li>
+			  <li>Android4Tier</li>
+			  <li>Android1Tier</li>
+			  <li>Android2Tier</li>
+			  <li>Android3Tier</li>
+           </notXenophobistTowards> -->
+				<alienPartGenerator>
+					<headBodyPartDef>ATR_MechanicalHead</headBodyPartDef>
+					<headTypes Inherit="False">
+						<li>Nandroid_Normal</li>
+						<li>Nandroid_CrackedOne</li>
+						<li>Nandroid_CrackedTwo</li>
+						<li>Nandroid_Painwheel</li>
+						<li>Nandroid_Kintsugi</li>
+						<li>Nandroid_DoubleLine</li>
+						<li>Nandroid_Freckles</li>
+						<li>Nandroid_Dummy</li>
+						<li>Nandroid_Oriental</li>
+						<li>Nandroid_Soviet</li>
+						<li>Nandroid_India</li>
+						<li>Nandroid_Corroded</li>
+					</headTypes>
+					<bodyTypes>
+                        <li>Female</li>
+                    </bodyTypes>
+					
+					<colorChannels>
+						<li>
+							<name>skin</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(0.74,0.74,0.74,1)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(0.72,0.72,0.78,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.80,0.90,0.8,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.95,0.95,0.95,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.85,0.85,0.85,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+						<li>
+							<name>hair</name>
+							<first Class="ColorGenerator_Options">
+								<options>
+									<!-- Mundane Hair Colors -->
+									<li>
+										<weight>10</weight>
+										<only>RGBA(0.17,0.17,0.17,1)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(0.02,0.02,0.02,1)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(0.90,0.90,0.90,1)</only>
+									</li>
+									<li>
+										<weight>10</weight>
+										<only>RGBA(0.51,0.25,0.25,1)</only>
+									</li>
+									<li>
+										<weight>8</weight>
+										<only>RGBA(1.00,0.66,0.32,1)</only>
+									</li>
+									<!-- Exotic Hair Colors -->
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.0,0.5,1.0,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(1.0,0.00,0.5,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(1.00,0.00,0.00,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.00,1.00,0.00,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.00,1.00,1.00,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.78,0.78,0.78,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.92,0.92,0.29,1)</only>
+									</li>
+									<li>
+										<weight>5</weight>
+										<only>RGBA(0.63,0.28,0.64,1)</only>
+									</li>
+								</options>
+							</first>
+						</li>
+					</colorChannels>
+				</alienPartGenerator>
+				<growthAges>
+                </growthAges>
+                <corpseCategory>CorpsesMechanoid</corpseCategory>
+			</generalSettings>
+			<styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+						<styleTagsOverride>
+						  <li>Nandroid</li>
+						  <li>NandroidBlank</li>
+						</styleTagsOverride>
+                    </value>
+                </li>
+				<li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+				<li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
+			<!--<hairSettings>
+				<hasHair>true</hasHair>
+				<getsGreyAt>10000</getsGreyAt>
+			</hairSettings>-->
+			<thoughtSettings>
+				<cannotReceiveThoughtsAtAll>false</cannotReceiveThoughtsAtAll>
+				<cannotReceiveThoughts>
+					<li>NeedFood</li>
+					<!--<li>Naked</li>-->
+					<li>Pain</li>
+					<li>SleepDisturbed</li>
+					<li>SleptOnGround</li>
+					<li>ArtifactMoodBoost</li>
+					<li>EnvironmentCold</li>
+					<li>EnvironmentHot</li>
+				</cannotReceiveThoughts>
+			</thoughtSettings>
+			<relationSettings>
+				<relationChanceModifierChild>0</relationChanceModifierChild>
+				<relationChanceModifierExLover>0</relationChanceModifierExLover>
+				<relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+				<relationChanceModifierFiance>0</relationChanceModifierFiance>
+				<relationChanceModifierLover>0.01</relationChanceModifierLover>
+				<relationChanceModifierParent>0</relationChanceModifierParent>
+				<relationChanceModifierSibling>0</relationChanceModifierSibling>
+				<relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+			</relationSettings>
+			<compatibility>
+				<isFlesh>false</isFlesh>
+			</compatibility>
+		</alienRace>
+		<uiIconPath>Things/Droids/Nandroid/NandroidExemplar</uiIconPath>
+		<statBases>
+			<MarketValue>3500</MarketValue>
+			<MoveSpeed>5.00</MoveSpeed>
+			<Flammability>0</Flammability>
+			<PsychicSensitivity>0.15</PsychicSensitivity>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<PainShockThreshold>5</PainShockThreshold>
+			<ToxicResistance>1</ToxicResistance>
+            <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<WorkSpeedGlobal>1</WorkSpeedGlobal>
+			<MentalBreakThreshold>0.3</MentalBreakThreshold>
+			<GlobalLearningFactor>1</GlobalLearningFactor>
+			<ImmunityGainSpeed>10</ImmunityGainSpeed>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<SocialImpact>0.9</SocialImpact>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+			<ATR_MaintenanceRetention>1.5</ATR_MaintenanceRetention>
+			<Mass>25</Mass>
+			<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>
+		</statBases>
+		<tools>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>22</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>120</lifeExpectancy>
+			<leatherDef>Leather_Human</leatherDef>
+			<nameGenerator>NandroidStandard</nameGenerator>
+			<body>ATR_AndroidBody</body>
+			<baseHealthScale>1.1</baseHealthScale>
+			<needsRest>false</needsRest>
+			<foodType>OmnivoreHuman</foodType>
+			<baseHungerRate>0.2</baseHungerRate>
+			<fleshType>ATR_AndroidTier</fleshType>
+			<bloodDef>ATR_CoolantAndroidTier</bloodDef>
+			<specificMeatDef>Steel</specificMeatDef>
+
+			<baseBodySize>1.4</baseBodySize>
+			<gestationPeriodDays>1</gestationPeriodDays>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+				</li>
+			</lifeStageAges>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,0)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(0.2,300)</li>
+					<li>(1,400)</li>
+					<li>(20,300)</li>
+					<li>(50,200)</li>
+					<li>(75,50)</li>
+					<li>(100,15)</li>
+					<li>(200,12)</li>
+					<li>(400,8)</li>
+					<li>(480,3)</li>
+					<li>(500,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>ATR_MechanicalStandard</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+<!-- old stuff --> <!--			<li>ATPP_InstallT3ArtificialBrain</li>
+			<li>ATPP_ApplyHealCPUSerum</li>
+			<li>ATPP_ApplyHealCoolingSystem</li>
+			<li>ATPP_ApplyHealFrameworkSystem</li>
+			<li>ATPP_ApplyHydraulicNaniteBank</li>
+			<li>ATPP_InstallRXChipOnAndroid</li>
+			<li>ATPP_InstallVX0ChipOnAndroid</li>
+			<li>ATPP_InstallVX1ChipOnAndroid</li>
+			<li>ATPP_InstallVX2ChipOnAndroid</li>
+			<li>ATPP_InstallVX3ChipOnAndroid</li>
+		
+			<li>AdministerMechSerumHealer</li>
+			<li>InstallJoywire</li>
+			
+	  <li>InstallBasicReplacementArm</li>
+      <li>InstallBasicReplacementLeg</li>
+	  <li>InstallLightReceivingDiode</li>
+	  <li>InstallCrudeHeatsink</li>
+	  <li>InstallFlimsyCoolantPump</li>
+	  <li>InstallSmallBatteryPack</li>
+	  <li>InstallTubeSealantTank</li>
+	  <li>InstallLowPowerTransformer</li>
+	  <li>InstallBasicDCConverter</li>
+	  
+	  <li>InstallAdvancedReplacementLeg</li>
+	  <li>InstallAdvancedReplacementArm</li>
+      <li>InstallMultiSpectrumEye</li>
+	  <li>InstallMultiLayerHeatsink</li>
+	  <li>InstallAdvancedCoolantInjector</li>
+	  <li>InstallNanowireBattery</li>
+	  <li>InstallNaniteStorageDevice</li>
+	  <li>InstallHighPowerTransformer</li>
+	  <li>InstallHighPowerConverter</li>
+	  
+	  <li>InstallBasicPlating</li>
+	  <li>InstallAdvPlating</li>
+	  <li>InstallAdv2Plating</li>
+	  <li>RemoveBodyPartAndroid</li>
+	  <li>ShutdownAndroid</li>
+	  
+	  <li>InstallFarmingMindImplant</li>
+		<li>InstallAnimalMindImplant</li>
+		<li>InstallNegotiationMindImplant</li>
+		<li>InstallCharismaMindImplant</li>
+	  	  <li>InstallPositronMindImplant</li>
+	  <li>InstallSoldierMindImplant</li>
+	  <li>InstallBuilderMindImplant</li>
+	  <li>InstallSurgeonMindImplant</li>
+	  <li>InstallSpeedMindImplant</li>
+	  <li>InstallGeoMindImplant</li>
+	  <li>InstallMechanicMindImplant</li>
+	  <li>InstallCookingMindImplant</li>
+	  <li>InstallUnskilledMindImplant</li>
+	  <li>InstallEvolvingMindImplant</li>
+	  <li>InstallMakeshiftReplacementArm</li>
+	  <li>InstallMakeshiftReplacementLeg</li>
+	  	  <li>InstallSmellingAdvS</li>
+	  <li>InstallAdvHearingS</li>
+	  <li>InstallCrudeHearingS</li>
+	  <li>InstallHydraulicFrame</li>
+	  <li>InstallHydraulicReplacementLeg</li>
+	  <li>InstallHydraulicReplacementArm</li>
+	  <li>InstallDrillArm</li> -->
+	  
+	  <li>ATR_Install_MiningArm</li>
+	  <li>ATR_Install_AgriArm</li>
+	  <li>ATR_Install_PacificationArm</li>
+	  <li>ATR_Install_ScalpelArm</li>
+	  <li>ATR_Install_RendingArm</li>
+	  
+	  <li>ATR_Install_MakeshiftReplacementLeg</li>
+	  <li>ATR_Install_MakeshiftReplacementArm</li>
+	  
+	  <li>ATR_Install_AdvancedArm</li>
+	  <li>ATR_Install_AdvancedLeg</li>
+	  <li>ATR_Install_AdvancedVisualSensor</li>
+	  <li>ATR_Install_AdvancedAudioSensor</li>
+	  <li>ATR_Install_AdvancedHeatsink</li>
+	  <li>ATR_Install_AdvancedCoolantPump</li>
+	  <li>ATR_Install_AdvancedBattery</li>
+	  <li>ATR_Install_AdvancedMechaniteStorage</li>
+	  <li>ATR_Install_AdvancedReactor</li>
+	  <!-- <li>ATR_Install_OrganicCharger</li> -->
+	  
+	  <li>ATR_Install_AutonomousCore</li>
+	  <li>Install_ReceiverCore</li>
+	  <!-- <li>ATR_Install_SkyMindReceiver</li>
+	  <li>ATR_RemoveSkyMindReceiver</li>
+	  <li>ATR_Install_SkyMindTransceiver</li>
+	  <li>ATR_RemoveOrganicSkyMindTransceiver</li> -->
+	  
+	  <li>ATR_Install_InsightAssistant</li>
+	  <li>ATR_Install_GeneralAssistant</li>
+	  <li>ATR_Install_CombatAssistant</li>
+	  <li>ATR_Install_MechanicAssistant</li>
+	  <li>ATR_Install_ConstructionAssistant</li>
+	  <li>ATR_Install_ExcavationAssistant</li>
+	  <li>ATR_Install_VictualAssistant</li>
+	  <li>ATR_Install_CultivationAssistant</li>
+	  <li>ATR_Install_MedicineAssistant</li>
+	  <li>ATR_Install_SocialAssistant</li>
+	  <li>ATR_Install_MentalAssistant</li>
+	  <li>ATR_Install_PsychicAssistant</li>
+	  <li>ATR_Install_ControllerAssistant</li>
+	  <!--<li>ATR_Install_SapientAssistant</li>-->
+	  
+	  <li>ATR_Install_MechanicalArchotechArm</li>
+	  <li>ATR_Install_MechanicalArchotechLeg</li>
+	  <li>ATR_Install_MechanicalArchotechVisualSensor</li>
+	  <li>ATR_Install_CybertechAudioSensor</li>
+	  <li>ATR_Install_CybertechHeatsink</li>
+	  <li>ATR_Install_CybertechCoolantPump</li>
+	  <li>ATR_Install_CybertechBattery</li>
+	  <li>ATR_Install_CybertechMechaniteStorage</li>
+	  <li>ATR_Install_CybertechReactor</li>
+	  
+	  <!-- <li>ATR_Install_PlasteelPlating</li>
+	  <li>ATR_Install_GuardianFrame</li>
+	  <li>ATR_Install_HydraulicFrame</li>
+	  <li>ATR_Install_SuppressorFrame</li>
+	  <li>ATR_Install_CompositePlating</li>
+	  <li>ATR_Install_RefinedFrame</li>
+	  <li>ATR_Install_SanitaryFrame</li>
+	  <li>ATR_Install_MobilityFrame</li> -->
+	  
+	  <li>InstallJarOpenerArm</li>
+	  <li>InstallStilettoArm</li>
+	  <li>InstallStilettoLeg</li>
+	  
+	  <!-- <li>ReprogramTraitsAndroidAdv</li>
+	  <li>OverclockAndroid</li>
+	  <li>RemoveAndroidSentience</li>
+	  <li>RerollAndroidTraits</li>
+
+			<li>InstallCrudeSmellingS</li>
+			<li>InstallArchSmellingS</li> -->
+			<li>ATR_RemoveBodyPartAndroid</li>
+            <li>ATR_RestoreBodyPartAndroid</li>
+			<!-- <li>ATR_ShutdownMechanical</li>
+			<li>ATR_RebootUnit</li> -->
+		</recipes>
+		<butcherProducts>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</butcherProducts>
+		<modExtensions>
+    <!-- <li Class="MOARANDROIDS.AndroidTweaker">
+        <tweakCorpseRot>true</tweakCorpseRot>
+    </li> -->
+			<li Class="ATReforged.ATR_MechTweaker">
+                <droneSkillLevel>8</droneSkillLevel>
+			</li>
+		</modExtensions>
+	</AlienRace.ThingDef_AlienRace>
+
+</Defs>

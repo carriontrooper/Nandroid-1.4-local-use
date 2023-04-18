@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <StyleItemCategoryDef>
+        <defName>Nandroid</defName>
+        <label>nandroid</label>
+    </StyleItemCategoryDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Blank</defName>
+    <label>No hair</label>
+    <styleGender>Any</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairBlank</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>NandroidBlank</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Emmy</defName>
+    <label>Nandroid Emmy hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairEmmy</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Avery</defName>
+    <label>Nandroid Avery hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairAvery</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Franny</defName>
+    <label>Nandroid Franny hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairFranny</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Molly</defName>
+    <label>Nandroid Molly hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairMolly</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Lulu</defName>
+    <label>Nandroid Lulu hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairLulu</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Cassy</defName>
+    <label>Nandroid Cassy hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairCassy</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_CassyPonytail</defName>
+    <label>Nandroid Cassy Ponytail hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairCassyPonytail</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Jenny</defName>
+    <label>Nandroid Jenny hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairJenny</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Dorothy</defName>
+    <label>Nandroid Dorothy hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairDorothy</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+ 
+</Defs>

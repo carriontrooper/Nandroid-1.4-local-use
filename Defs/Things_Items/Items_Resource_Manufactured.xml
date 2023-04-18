@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>NandroidBoxKit</defName>
+		<label>Nandroid Box Kit</label>
+		<thingClass>ThingWithComps</thingClass>
+		<description>This box contains an unpowered nandroid, laid out neatly within so that the unit can be more efficiently transported from location to location. The kit holds a set of instructions and tools to assemble the android too, with the instructions being so clear and straight forward that even an idiot could do it.</description>
+		<graphicData>
+			<texPath>Things/NandroidBox</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>2200</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>20.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Starting up Nandroid</useLabel>
+				<useDuration>4000</useDuration>
+			</li>
+			<li Class="ATReforged.CompProperties_GenericSpawner">
+                <pawnKind>NandroidColonistUnbox</pawnKind>
+            </li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>CompUseEffect_DestroySelf</compClass>
+			</li>
+		</comps>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	
+   
+	
+   <RecipeDef>
+      <defName>CreateNandroidBoxKit</defName>
+      <label>Create Nandroid Box Kit</label>
+      <description>Create a Nandroid Box Kit from Plasteel and components.</description>
+      <jobString>Making Nandroid</jobString>  
+      <allowMixingIngredients>false</allowMixingIngredients>
+	  <skillRequirements>
+		<Crafting>14</Crafting>
+      </skillRequirements>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Plasteel</li>
+               </thingDefs>
+            </filter>
+            <count>80</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Steel</li>
+               </thingDefs>
+            </filter>
+            <count>85</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ComponentIndustrial</li>
+               </thingDefs>
+            </filter>
+            <count>15</count>
+         </li>
+		 <li>
+            <filter>
+               <thingDefs>
+                  <li>ComponentSpacer</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Gold</li>
+               </thingDefs>
+            </filter>
+            <count>2</count>
+         </li>
+      </ingredients>
+      <products>
+         <NandroidBoxKit>1</NandroidBoxKit>
+      </products>
+	  <researchPrerequisite>ATR_T3Androids</researchPrerequisite>
+      <workAmount>18500</workAmount>
+	  <unfinishedThingDef>ATR_UnfinishedAndroid</unfinishedThingDef>
+      <workSkill>Crafting</workSkill>
+    <effectWorking>Repair</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workSpeedStat>ButcheryMechanoidSpeed</workSpeedStat>
+	 <recipeUsers>
+		<li>ATR_MechanicalAssemblyPod</li>
+      </recipeUsers>
+	</RecipeDef>
+	
+	
+</Defs>

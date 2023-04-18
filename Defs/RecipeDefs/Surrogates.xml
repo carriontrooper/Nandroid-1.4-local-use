@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <!--<RecipeDef>
+      <defName>ATPP_CreateSNan</defName>
+      <label>Create Surrogate Nandroid</label>
+      <description>Create a blank Surrogate nandroid from Plasteel and components.</description>
+      <jobString>Making Surrogate Nandroid</jobString>  
+      <allowMixingIngredients>false</allowMixingIngredients>
+	  <skillRequirements>
+		<Crafting>6</Crafting>
+      </skillRequirements>
+	  <researchPrerequisite>ATPP_ResearchSurrogateHost</researchPrerequisite>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Plasteel</li>
+               </thingDefs>
+            </filter>
+            <count>80</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Steel</li>
+               </thingDefs>
+            </filter>
+            <count>85</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ComponentIndustrial</li>
+               </thingDefs>
+            </filter>
+            <count>15</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Gold</li>
+               </thingDefs>
+            </filter>
+            <count>2</count>
+         </li>
+      </ingredients>
+      <products>
+         <ATPP_SNanSurrogateGeneratorAI>1</ATPP_SNanSurrogateGeneratorAI>
+      </products>
+      <workAmount>17500</workAmount>
+	  <unfinishedThingDef>UnfinishedAndroid</unfinishedThingDef>
+      <workSkill>Crafting</workSkill>
+    <effectWorking>Repair</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workSpeedStat>ButcheryMechanoidSpeed</workSpeedStat>
+	 <recipeUsers>
+		<li>AndroidProductionVat</li>
+      </recipeUsers>
+	</RecipeDef>
+
+    <ThingDef ParentName="ATPP_GeneratorAI">
+        <defName>ATPP_SNanSurrogateGeneratorAI</defName>
+        <label>Surrogate Nandroid</label>
+        <comps>
+		<li Class="MOARANDROIDS.CompProperties_SurrogateSpawner">
+            <compClass>MOARANDROIDS.CompSurrogateSpawner</compClass>
+			<Pawnkind>NandroidColonistUnbox</Pawnkind>
+		</li>
+        </comps>
+    </ThingDef>-->
+	
+</Defs>

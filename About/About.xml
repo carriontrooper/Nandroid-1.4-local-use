@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[1.4] Android Tiers Nandroids - local test</name>
+  <author>Indonesian Gentleman</author>
+  <packageId>IndoGent.Nandroids.localtest</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>
+	Add-on to Android Tiers, requires Android Tiers. Adds Nandroids!
+
+	Nandroids from the webcomic "Emmy the Robot" by Dominic Cellini.
+
+	Feature list:
+
+	-Nandroids! And how to make them
+	-Several hairstyles seen on the webcomic and more from the fandom
+	-A Nandroid maid apron!
+	-Three artificial limbs, including the Sterling brand Jar Opener Augment!
+	-Several backstories, mostly based on the Android Tiers backstories
+  </description>
+  <modDependencies>
+	<li>
+      <packageId>Killathon.AndroidTiersReforged</packageId>
+      <displayName>Android Tiers Reforged</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1386412863</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+	<li>Killathon.AndroidTiersReforged</li>
+  </loadAfter>
+</ModMetaData>

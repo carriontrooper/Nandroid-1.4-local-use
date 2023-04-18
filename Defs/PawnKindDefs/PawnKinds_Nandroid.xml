@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>NandroidColonistUnbox</defName>
+		<label>Nandroid Colonist</label>
+		<race>Nandroid</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+				  <li>NandroidFreshBox</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<maxGenerationAge>1</maxGenerationAge>
+		<defaultFactionType>ATR_PlayerAndroidFaction</defaultFactionType>
+		<chemicalAddictionChance>0.00</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<apparelTags>
+			<!--<li>IndustrialBasic</li>-->
+			<li>NandroidClothing</li>
+		</apparelTags>
+		<apparelRequired>
+			<li>Apparel_NandroidMaidUniform</li>
+		</apparelRequired>
+		<apparelMoney><min>350</min><max>1000</max></apparelMoney>
+	</PawnKindDef>
+
+	<!--Androids With Real Backstories-->
+
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>NandroidColonistGeneral</defName>
+		<label>Nandroid Colonist</label>
+		<race>Nandroid</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+				  <li>NandroidGeneral</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<maxGenerationAge>17</maxGenerationAge>
+		<defaultFactionType>ATR_PlayerAndroidFaction</defaultFactionType>
+		<techHediffsMoney>
+			<min>2000</min>
+			<max>10000</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<techHediffsChance>0.3</techHediffsChance>
+		<chemicalAddictionChance>0.00</chemicalAddictionChance>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<initialResistanceRange>13~21</initialResistanceRange>
+		<apparelTags>
+		  <li>IndustrialBasic</li>
+		  <li>NandroidClothing</li>
+		</apparelTags>
+		<!--<apparelRequired>
+			<li>Apparel_NandroidMaidUniform</li>
+		</apparelRequired>-->
+		<apparelMoney><min>350</min><max>1000</max></apparelMoney>
+	</PawnKindDef>
+
+</Defs>

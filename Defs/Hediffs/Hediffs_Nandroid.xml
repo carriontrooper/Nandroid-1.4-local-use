@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Base Added Part Hediff -->
+    <!--
+	<HediffDef Name="ATR_MechAddedBodyPartBase" ParentName="ImplantHediffBase" Abstract="True">
+        <hediffClass>Hediff_AddedPart</hediffClass>
+        <addedPartProps>
+            <solid>true</solid>
+            <betterThanNatural>true</betterThanNatural>
+        </addedPartProps>
+    </HediffDef>
+	-->
+
+    
+	
+	<!-- Base Industrial -->
+
+    <!--
+	<HediffDef Name="ATR_AddedBodyPartIndustrialBase" ParentName="ATR_MechAddedBodyPartBase" Abstract="True">
+        <hediffClass>Hediff_AddedPart</hediffClass>
+        <addedPartProps>
+            <solid>true</solid>
+        </addedPartProps>
+    </HediffDef>
+
+    
+	-->
+  
+  <!-- Added body parts -->
+  
+  <HediffDef ParentName="ATR_AddedBodyPartIndustrialBase">
+    <defName>JarOpenerArm</defName>
+    <label>Sterling brand jar opener arm augment</label>
+    <labelNoun>a jar opener arm</labelNoun>
+	<description>An installed Sterling brand jar opener augmented arm.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<CarryingCapacity>25</CarryingCapacity>
+				</statOffsets>
+			</li>
+		</stages>
+	 <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>3</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>JarOpenerArm</spawnThingOnRemoved>
+    <!--<addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.85</partEfficiency>
+    </addedPartProps>-->
+  </HediffDef>
+  
+  <HediffDef ParentName="ATR_AddedBodyPartIndustrialBase">
+    <defName>StilettoArm</defName>
+    <label>Hidden blade arm</label>
+    <labelNoun>a hidden blade in the arm</labelNoun>
+	<description>An installed hidden arm blade.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-0.5</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+			</li>
+		</stages>
+	 <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>hidden blade point</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>3</cooldownTime>
+          </li>
+		  <li>
+            <label>hidden blade edge</label>
+            <capacities>
+              <li>Cut</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>3</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>StilettoArm</spawnThingOnRemoved>
+    <!--<addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.15</partEfficiency>
+    </addedPartProps>-->
+  </HediffDef>
+  
+  <HediffDef ParentName="ATR_AddedBodyPartIndustrialBase">
+    <defName>StilettoLeg</defName>
+    <label>Hidden blade leg</label>
+    <labelNoun>a hidden blade in the leg</labelNoun>
+	<description>An installed hidden leg blade.</description>
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeWeapon_CooldownMultiplier>-0.5</MeleeWeapon_CooldownMultiplier>
+				</statOffsets>
+			</li>
+		</stages>
+	 <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>hidden blade point</label>
+            <capacities>
+              <li>Stab</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>3</cooldownTime>
+          </li>
+		  <li>
+            <label>hidden blade edge</label>
+            <capacities>
+              <li>Cut</li>
+            </capacities>
+            <power>15</power>
+            <cooldownTime>3</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>StilettoLeg</spawnThingOnRemoved>
+    <!--<addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.15</partEfficiency>
+    </addedPartProps>-->
+  </HediffDef>
+  
+</Defs>

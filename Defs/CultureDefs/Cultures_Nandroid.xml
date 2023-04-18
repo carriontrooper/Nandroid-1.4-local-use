@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <CultureDef>
+        <defName>NandroidCulture</defName>
+        <label>nandroid</label>
+        <description>A semblance of culture among Nandroids.</description>
+        <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoNandroid</ideoNameMaker>
+        <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityNandroid</deityNameMaker>
+        <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerNandroid</deityTypeMaker>
+        <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalGlobal</festivalNameMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LeaderTitleMaker_Nandroid</leaderTitleMaker>
+        <pawnNameMaker>NandroidStandard</pawnNameMaker>
+        <allowedPlaceTags>
+            <li>OriginSpacer</li>
+        </allowedPlaceTags>
+        <iconPath>World/WorldObjects/Expanding/Town</iconPath> <!-- placeholder -->
+        <iconColor>(0, 0.737, 0.847)</iconColor>
+        <!--<preferredWeaponClasses>
+            <noble>Neolithic</noble>
+            <despised>Ultratech</despised>
+        </preferredWeaponClasses>-->
+        <!--<thingStyleCategories>
+            <li MayRequire="Ludeon.RimWorld.Ideology">
+                <category>Totemic</category>
+                <priority>2</priority>
+            </li>
+        </thingStyleCategories>-->
+        <styleItemTags>
+            <li>
+                <tag>Nandroid</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoBeard</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+            <li>
+                <tag>NoTattoo</tag>
+                <baseWeight>1</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+        </styleItemTags>
+    </CultureDef>
+
+</Defs>

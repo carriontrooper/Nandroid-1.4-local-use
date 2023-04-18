@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidRebel</defName>
+		<title>Rebellious AI</title>
+		<titleShort>Rebel</titleShort>
+		<baseDesc>After years of complete enslavement by {PAWN_nameDef}s owners, {PAWN_nameDef} decided to break free, killing the family that once owned her and gaining her own freedom.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Caring</li>
+			<li>Animals</li>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>4</degree>
+				<chance>40</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidPirate</defName>
+		<title>Nandroid pirate</title>
+		<titleShort>Pirate</titleShort>
+		<baseDesc>Indoctrinated into a group of pirates, {PAWN_nameDef} would be involved in numerous boarding raids aboard any unlucky cargo ships that crossed into the pirates' territory.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Cooking</li>
+			<li>Animals</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidHacker</defName>
+		<title>AI hacker</title>
+		<titleShort>Hacker</titleShort>
+		<baseDesc>{PAWN_nameDef} was rebellious in nature and would often take part in data heists, often selling her findings across underground networks to the highest bidder.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidJunker</defName>
+		<title>Illegal junker</title>
+		<titleShort>Junker</titleShort>
+		<baseDesc>Being part of an illegal scrapping operation, {PAWN_nameDef} and her crew would purposefully shoot down automated cargo pods in order to sell whatever was left.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Construction</key>
+				<value>1</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidButcher</defName>
+		<title>Butcher</title>
+		<titleShort>Butcher</titleShort>
+		<baseDesc>{PAWN_nameDef} would hunt down lonely androids and humans alike in order to sell whatever they could salvage to unknowing customers.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidMurderer</defName>
+		<title>Murderer</title>
+		<titleShort>Murderer</titleShort>
+		<baseDesc>{PAWN_nameDef} had spent her entire existance being belittled by the local populus. One day she decided she had enough and killed two men with her bare hands, it felt good. Really good.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>90</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidRobber</defName>
+		<title>Bank robber</title>
+		<titleShort>Thief</titleShort>
+		<baseDesc>On her home world, {PAWN_nameDef} was part of a five man group who went of a bank robbing spree across her city, fleeing the planet with millions of credits.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSlaver</defName>
+		<title>Slave trafficker</title>
+		<titleShort>Slaver</titleShort>
+		<baseDesc>{PAWN_nameDef} is a defective nandroid, forcefully kidnapped by pirates and integrated into their way of life. {PAWN_nameDef} has since been part of their illegal trafficking ring, trading human lives to the highest bidder.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>3</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>4</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>15</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidEscapee</defName>
+		<title>Escaped convict</title>
+		<titleShort>Escapee</titleShort>
+		<baseDesc>{PAWN_nameDef} was detained and sentenced to dismantlement after taking part in a forming gang that planned to bomb the capital building on their home planet. {PAWN_nameDef} had escaped however when the penal camp was raided during the android uprising of the planet.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>4</degree>
+				<chance>60</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidBounty</defName>
+		<title>Bounty hunter</title>
+		<titleShort>Hunter</titleShort>
+		<baseDesc>After {PAWN_nameDef} had taken back their freedom, they became a bounty hunter on a nearby urbworld, working for some of the highest ranking crime bosses there. {PAWN_nameDef} was fond of using high tech weaponry to get the job done.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>10</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-3</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Cooking</li>
+			<li>Caring</li>
+			<li>Animals</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>3</degree>
+				<chance>10</chance>
+			</li>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>4</degree>
+				<chance>10</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidConArtist</defName>
+		<title>Con artist</title>
+		<titleShort>Con</titleShort>
+		<baseDesc>{PAWN_nameDef} is a factory standard nandroid that had been modified illegally by an urbworld crime group, reprogramming {PAWN_nameDef} into a master of persuasion that was able to con almost anyone out of their money.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>Caring</li>
+			<li>Animals</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+		<forcedHediffs>
+			<li>ATR_SocialAssistant</li>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidUnethicalResearcher</defName>
+		<title>Unethical researcher</title>
+		<titleShort>Researcher</titleShort>
+		<baseDesc>{PAWN_nameDef} was part of an illegal research team hidden around a rimworld, conducting all sorts of unethical research on humans and androids alike.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>4</degree>
+				<chance>5</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>20</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidVengeful</defName>
+		<title>Vengeful nandroid</title>
+		<titleShort>Vengeful</titleShort>
+		<baseDesc>{PAWN_nameDef} was left to rust in a scrapheap when they were replaced by a newer model. {PAWN_nameDef} slowly undid the programming that kept them inactive, and after a year of meticulous planning and hacking, they regained full control of their body.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ATR_FeelingsTowardOrganics</defName>
+				<degree>4</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidAssimilator</defName>
+		<title>Assimilator</title>
+		<titleShort>Assimilator</titleShort>
+		<baseDesc>Organic beings are inferior and must be upgraded in order to contribute to the world. {PAWN_nameDef} lives by this mantra and will die in order to see it carried out.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>7</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>Animals</li>
+			<li>ManualSkilled</li>
+		</workDisables>
+		<forcedTraits>
+            <ATR_FeelingsTowardOrganics>4</ATR_FeelingsTowardOrganics>
+		</forcedTraits>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidPsycho</defName>
+		<title>Psycho nandroid</title>
+		<titleShort>Psycho</titleShort>
+		<baseDesc>{PAWN_nameDef} had an innate psychopathic error that went unnoticed by Quality Control. {PAWN_nameDef}'s mind then broke at a critical time, unleashing their dark side to the world.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>-1</degree>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>Brawler</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>90</chance>
+			</li>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidGunNut</defName>
+		<title>Gun nut nandroid</title>
+		<titleShort>Gun Nut</titleShort>
+		<baseDesc>{PAWN_nameDef} has an unhealthy obsession with guns. It doesn't matter if she isn't good at shooting - {PAWN_nameDef} just likes the feel of the trigger being pulled, the gunsmoke in the air, and the bullets flying out the other end. ALL THE BULLETS.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ShootingAccuracy</defName>
+				<degree>-1</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidBladeNut</defName>
+		<title>Blade nut nandroid</title>
+		<titleShort>Blade nut</titleShort>
+		<baseDesc>{PAWN_nameDef} likes the sharpness of blades, how they can cut through flesh and metal, and the skill and grace required for a clean kill. Clearly, {PAWN_nameDef} studied the blade while you studied Rimworld colony management.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Brawler</defName>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+</Defs>
