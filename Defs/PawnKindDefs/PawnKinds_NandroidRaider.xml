@@ -16,7 +16,7 @@
 	    <!--<baseRecruitDifficulty>0.92</baseRecruitDifficulty>-->
 	<race>Nandroid</race>
     <combatPower>170</combatPower>
-	<maxGenerationAge>17</maxGenerationAge>
+	<maxGenerationAge>100</maxGenerationAge>
 			<defaultFactionType>NandroidOutmodeHostile</defaultFactionType>
 		<aiAvoidCover>true</aiAvoidCover>
     <gearHealthRange>

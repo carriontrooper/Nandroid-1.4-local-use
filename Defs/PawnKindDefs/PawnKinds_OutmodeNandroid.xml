@@ -13,7 +13,7 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<maxGenerationAge>17</maxGenerationAge>
+		<maxGenerationAge>100</maxGenerationAge>
 		<defaultFactionType>NandroidOutmodeFriendlies</defaultFactionType>
 		<chemicalAddictionChance>0.00</chemicalAddictionChance>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
@@ -68,7 +68,7 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<maxGenerationAge>17</maxGenerationAge>
+		<maxGenerationAge>100</maxGenerationAge>
 		<defaultFactionType>NandroidOutmodeFriendlies</defaultFactionType>
 		<chemicalAddictionChance>0.00</chemicalAddictionChance>
 		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
@@ -124,7 +124,7 @@
 		<!--<baseRecruitDifficulty>0.80</baseRecruitDifficulty>-->
 		<race>Nandroid</race>
 		<combatPower>180</combatPower>
-		<maxGenerationAge>17</maxGenerationAge>
+		<maxGenerationAge>100</maxGenerationAge>
 		<defaultFactionType>NandroidOutmodeFriendlies</defaultFactionType>
 		<aiAvoidCover>false</aiAvoidCover>
 		<gearHealthRange>
@@ -181,7 +181,7 @@
 		<race>Nandroid</race>
 		<combatPower>250</combatPower>
 		<factionLeader>true</factionLeader>
-		<maxGenerationAge>17</maxGenerationAge>
+		<maxGenerationAge>200</maxGenerationAge>
 		<invNutrition>3.0</invNutrition>
 		<defaultFactionType>NandroidOutmodeFriendlies</defaultFactionType>
 		<aiAvoidCover>false</aiAvoidCover>

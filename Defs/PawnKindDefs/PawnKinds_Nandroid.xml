@@ -40,7 +40,7 @@
 				</categories>
 			</li>
 		</backstoryFiltersOverride>
-		<maxGenerationAge>17</maxGenerationAge>
+		<maxGenerationAge>100</maxGenerationAge>
 		<defaultFactionType>ATR_PlayerAndroidFaction</defaultFactionType>
 		<techHediffsMoney>
 			<min>2000</min>
