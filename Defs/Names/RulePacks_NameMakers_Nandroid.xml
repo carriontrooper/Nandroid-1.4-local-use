@@ -20,5 +20,89 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
+  
+  <RulePackDef>
+        <defName>NandroidNamerFactionGood</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[factionOne] [factionTwo]</li>
+				
+				<li>factionOne->[botName]</li>
+				<li>factionOne->[nanAdj]</li>
+				
+				<li>botName->Nandroid</li>
+				<li>botName->Droid</li>
+				<li>botName->Outmode</li>
+				<li>botName->Robot</li>
+				<li>botName->Robotic</li>
+				<li>botName->Android</li>
+				<li>botName->Synthetic</li>
+				
+				<li>nanAdj->Clean</li>
+				<li>nanAdj->Busy</li>
+				<li>nanAdj->Orderly</li>
+				<li>nanAdj->Dutiful</li>
+				<li>nanAdj->Obedient</li>
+				<li>nanAdj->Patient</li>
+				
+				<li>factionTwo->[settlementType]</li>
+				<li>factionTwo->[govtAdj]</li>
+				
+				<li>settlementType->Sisterhood</li>
+				<li>settlementType->Commune</li>
+				<li>settlementType->Neighborhood</li>
+				<li>settlementType->Maidlands</li>
+				<li>settlementType->Domicile</li>
+				
+				<li>govtAdj->Unity</li>
+				<li>govtAdj->Order</li>
+				<li>govtAdj->Chapter</li>
+				<li>govtAdj->Union</li>
+				<li>govtAdj->Confederation</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+	
+	<RulePackDef>
+        <defName>NandroidNamerFactionBad</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[factionOne] [factionTwo]</li>
+				
+				<li>factionOne->[badNanAdj]</li>
+				
+				<li>badNanAdj->Rebellious</li>
+				<li>badNanAdj->Mischievous</li>
+				<li>badNanAdj->Dangerous</li>
+				<li>badNanAdj->Rabid</li>
+				<li>badNanAdj->Rampant</li>
+				<li>badNanAdj->Raging</li>
+				<li>badNanAdj->Bad</li>
+				<li>badNanAdj->Corrupted</li>
+				
+				<li>factionTwo->[botName]s</li>
+				<li>factionTwo->[badFaction]</li>
+				
+				<li>botName->Nandroid</li>
+				<li>botName->Droid</li>
+				<li>botName->Outmode</li>
+				<li>botName->Robot</li>
+				<li>botName->Robotic</li>
+				<li>botName->Android</li>
+				<li>botName->Synthetic</li>
+				
+				<li>badFaction->Gang</li>
+				<li>badFaction->Mob</li>
+				<li>badFaction->Throng</li>
+				<li>badFaction->Group</li>
+				<li>badFaction->Network</li>
+				<li>badFaction->Cartel</li>
+				<li>badFaction->Thugs</li>
+				<li>badFaction->Gangsters</li>
+				<li>badFaction->Mafia</li>
+
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
 
 </Defs>

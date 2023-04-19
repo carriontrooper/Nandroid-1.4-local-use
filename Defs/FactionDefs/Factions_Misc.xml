@@ -18,7 +18,7 @@
 		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-		<allowedCultures><li>Astropolitan</li></allowedCultures>
+		<allowedCultures><li>NandroidCulture</li></allowedCultures>
 		<techLevel>Industrial</techLevel>
 		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
 		<startingResearchTags>
@@ -65,8 +65,8 @@
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>head maid</leaderTitle>
-		<factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
-		<factionNameMaker>NamerFactionCollectiveAndroid</factionNameMaker>
+		<factionIconPath>Things/Icons/NandroidBase</factionIconPath>
+		<factionNameMaker>NandroidNamerFactionGood</factionNameMaker>
 		<settlementNameMaker>NamerSettlementCollectiveAndroid</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<allowedCultures>
@@ -215,13 +215,13 @@
         </permanentEnemyToEveryoneExcept>
 		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
 		<leaderTitle>overlord</leaderTitle>
-		<factionIconPath>Things/Icons/NandroidBase</factionIconPath>
+		<factionIconPath>Things/Icons/BadNandroidBase</factionIconPath>
 		<colorSpectrum>
 			<li>(0.95, 0.9, 0.92)</li>
 			<li>(0.9, 0.9, 0.9)</li>
 			<li>(0.92, 0.92, 0.96)</li>
 		</colorSpectrum>
-		<factionNameMaker>NamerFactionRaiderAndroid</factionNameMaker>
+		<factionNameMaker>NandroidNamerFactionBad</factionNameMaker>
 		<settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
         <basicMemberKind>ATR_RaiderSoldierT2</basicMemberKind>
 		<techLevel>Spacer</techLevel>
