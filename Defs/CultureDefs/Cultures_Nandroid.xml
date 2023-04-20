@@ -32,6 +32,26 @@
                 <baseWeight>10</baseWeight>
                 <weightFactor>1</weightFactor>
             </li>
+			<li>
+                <tag>Outlander</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+			<li>
+                <tag>Rural</tag>
+                <baseWeight>5</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+			<li>
+                <tag>Punk</tag>
+                <baseWeight>5</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
+			<li>
+                <tag>Urban</tag>
+                <baseWeight>10</baseWeight>
+                <weightFactor>1</weightFactor>
+            </li>
             <li>
                 <tag>NoBeard</tag>
                 <baseWeight>10</baseWeight>
