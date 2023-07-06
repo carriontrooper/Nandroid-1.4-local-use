@@ -780,7 +780,7 @@
 		</forcedTraitsChance>
 		<forcedHediffs>
 			<li>ATR_MakeshiftMechArm</li>
-			<li>ATR_PartDecay</li>
+			<li>ATR_RustedPart</li>
 		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
 
@@ -1172,7 +1172,7 @@
 			<li>Intellectual</li>
 		</workDisables>
 		<forcedHediffs>
-			<li>ATR_MemoryCorruption</li>
+			<li>ATR_NeuralRampancy</li>
 		</forcedHediffs>
 	</AlienRace.AlienBackstoryDef>
 	
@@ -1320,4 +1320,164 @@
 		<workDisables>
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidAntique</defName>
+		<title>Antique nandroid</title>
+		<titleShort>Antique</titleShort>
+		<baseDesc>{PAWN_nameDef} was an early Nandroid model which had been collecting dust in a warehouse, and got activated in the rim.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>FastLearner</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>SlowLearner</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>GreatMemory</defName>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>NaturalMood</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
+		<forcedHediffs>
+			<li>ATR_DustAccumulation</li>
+			<li>ATR_RustedPart</li>
+			<li>ATR_AdaptationPractice</li>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidGamer</defName>
+		<title>Nandroid gamer</title>
+		<titleShort>Gamer</titleShort>
+		<baseDesc>{PAWN_nameDef} had discovered the joys of electronic entertainment systems, to the point that she would neglect her chores in favor of beating the latest games. May or may not have picked up some bad speech habits in online matches...</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Abrasive</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>GreatMemory</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>NightOwl</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>Nimble</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-1</degree>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>Industriousness</defName>
+				<degree>-2</degree>
+				<chance>10</chance>
+			</li>
+		</forcedTraitsChance>
+		<workDisables>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidStoreClerk</defName>
+		<title>Store clerk</title>
+		<titleShort>Clerk</titleShort>
+		<baseDesc>{PAWN_nameDef} was specifically designed to withstand the gauntlet of crushing existential ennui that is being a retail store clerk.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Social</key>
+				<value>6</value>
+			</li>
+		</skillGains>
+		<workDisables>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>GreatMemory</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+				<defName>NightOwl</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>QuickSleeper</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>2</degree>
+				<chance>10</chance>
+			</li>
+			<li>
+				<defName>Neurotic</defName>
+				<degree>1</degree>
+				<chance>20</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
 </Defs>

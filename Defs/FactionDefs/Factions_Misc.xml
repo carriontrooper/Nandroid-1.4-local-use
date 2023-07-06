@@ -67,7 +67,7 @@
 		<leaderTitle>head maid</leaderTitle>
 		<factionIconPath>Things/Icons/NandroidBase</factionIconPath>
 		<factionNameMaker>NandroidNamerFactionGood</factionNameMaker>
-		<settlementNameMaker>NamerSettlementCollectiveAndroid</settlementNameMaker>
+		<settlementNameMaker>ATR_UnionSettlementNamer</settlementNameMaker>
 		<techLevel>Spacer</techLevel>
 		<allowedCultures>
 			<li>Rustican</li>
@@ -157,7 +157,7 @@
 				</traders>
 				<carriers>
 					<Muffalo>6</Muffalo>
-					<ATR_DroneTORT>5</ATR_DroneTORT>
+					<ATB_DroneTORT MayRequire="Killathon.MechHumanlikes.MechanicalBiomimetics">5</ATB_DroneTORT>
 					<Dromedary>4</Dromedary>
 					<Alpaca>2</Alpaca>
 					<Elephant>1</Elephant>

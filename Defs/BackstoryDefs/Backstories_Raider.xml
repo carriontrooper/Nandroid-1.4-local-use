@@ -481,7 +481,7 @@
 		<defName>NandroidGunNut</defName>
 		<title>Gun nut nandroid</title>
 		<titleShort>Gun Nut</titleShort>
-		<baseDesc>{PAWN_nameDef} has an unhealthy obsession with guns. It doesn't matter if she isn't good at shooting - {PAWN_nameDef} just likes the feel of the trigger being pulled, the gunsmoke in the air, and the bullets flying out the other end. ALL THE BULLETS.</baseDesc>
+		<baseDesc>{PAWN_nameDef} has an unhealthy obsession with guns. It doesn't matter if she isn't that good at shooting - {PAWN_nameDef} just likes the feel of the trigger being pulled, the gunsmoke in the air, and the bullets flying out the other end. ALL THE BULLETS.</baseDesc>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -524,6 +524,63 @@
 			<li>
 				<defName>Brawler</defName>
 				<chance>30</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidMerc</defName>
+		<title>Nandroid mercenary</title>
+		<titleShort>Mercenary</titleShort>
+		<baseDesc>{PAWN_nameDef} was originally a standard model Nandroid, but unfortunate circumstances on her planet forced her into the service of an unscrupulous mercenary group.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>BadGurlz</li>
+			<li>NandroidSoldiers</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<workDisables>
+			<li>PlantWork</li>
+			<li>Animals</li>
+		</workDisables>
+		<forcedTraitsChance>
+			<li>
+				<defName>Nimble</defName>
+				<chance>20</chance>
+			</li>
+			<li>
+				<defName>Bloodlust</defName>
+				<chance>10</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>SpeedOffset</defName>
+				<degree>2</degree>
+				<chance>10</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>1</degree>
+				<chance>30</chance>
+			</li>
+			<li>
+				<defName>Nerves</defName>
+				<degree>2</degree>
+				<chance>10</chance>
 			</li>
 		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>

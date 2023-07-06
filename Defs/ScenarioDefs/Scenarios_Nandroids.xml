@@ -24,6 +24,14 @@
 				</li>
 				<li Class="ScenPart_StartingResearch">
 					<def>StartingResearch</def>
+					<project>Batteries</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>SolarPanels</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
 					<project>ATR_MechanicalInsight</project>
 				</li>
 				<li Class="ScenPart_StartingResearch">
@@ -42,7 +50,17 @@
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>ATR_RepairStimIntermediate</thingDef>
+					<thingDef>MHC_CoolantPack</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MHC_LubricationPack</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MHC_RepairStimIntermediate</thingDef>
 					<count>6</count>
 				</li>
 				<li Class="ScenPart_StartingThing_Defined">
@@ -70,7 +88,7 @@
                 </li>
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
-					<thingDef>ATR_PartPack</thingDef>
+					<thingDef>MHC_PartPack</thingDef>
 					<count>4</count>
 				</li>
 				<!-- Scatter some things near player start -->

@@ -28,12 +28,14 @@
         <costList>
             <Steel>85</Steel>
             <Plasteel>80</Plasteel>
+			<MHC_CoolantPack>2</MHC_CoolantPack>
+            <MHC_LubricationPack>2</MHC_LubricationPack>
             <Gold>2</Gold>
             <ComponentIndustrial>15</ComponentIndustrial>
             <ComponentSpacer>1</ComponentSpacer>
         </costList>
         <comps>
-            <li Class="ATReforged.CompProperties_GenericSpawner">
+            <li Class="ATReforged.CompProperties_PawnSpawner">
                 <pawnKind>NandroidColonistUnbox</pawnKind>
             </li>
         </comps>

@@ -41,8 +41,6 @@
 					<skinShader>Cutout</skinShader>
 			</graphicPaths>
 
-			<!--<traitCount>2~3</traitCount>
-			<canLayDown>true</canLayDown>-->
 			<raceRestriction>
 				<traitList>
 					<li>ATR_FeelingsTowardOrganics</li>
@@ -51,19 +49,18 @@
 			</raceRestriction>
 			
 			<generalSettings>
-			<!--<useOnlyPawnkindBackstories>true</useOnlyPawnkindBackstories>-->
 			<maleGenderProbability>0</maleGenderProbability>
 			<allowHumanBios>false</allowHumanBios>
 				<maxDamageForSocialfight>5</maxDamageForSocialfight>
 				<immuneToAge>false</immuneToAge>
 				<disallowedTraits>
-					<li>
+					<!--<li>
 						<defName>DrugDesire</defName>
-					</li>
+					</li>-->
 					<li>
 						<defName>AnnoyingVoice</defName>
 					</li>
-					<li>
+					<!--<li>
 						<defName>CreepyBreathing</defName>
 					</li>
 					<li>
@@ -74,7 +71,7 @@
 					</li>
 					<li>
 						<defName>Masochist</defName>
-					</li>
+					</li>-->
 					<li>
 						<defName>Nudist</defName>
 					</li>
@@ -93,13 +90,13 @@
 					<!--<li>
 						<defName>Beauty</defName>
 					</li>-->
-					<li>
-						<defName>Immunity</defName>
-					</li>
 					<!--<li>
-						<defName>Tough</defName>
+						<defName>Immunity</defName>
 					</li>-->
 					<!--<li>
+						<defName>Tough</defName>
+					</li>
+					<li>
 						<defName>MechAtlas</defName>
 					</li>-->
 				</disallowedTraits>
@@ -221,8 +218,9 @@
 						</li>
 					</colorChannels>
 				</alienPartGenerator>
-				<growthAges>
-                </growthAges>
+				<additionalTraits>1~3</additionalTraits>
+				<!--<growthAges>
+                </growthAges>-->
                 <corpseCategory>CorpsesMechanoid</corpseCategory>
 			</generalSettings>
 			<styleSettings>
@@ -253,19 +251,19 @@
 				<hasHair>true</hasHair>
 				<getsGreyAt>10000</getsGreyAt>
 			</hairSettings>-->
-			<thoughtSettings>
+			<!--<thoughtSettings>
 				<cannotReceiveThoughtsAtAll>false</cannotReceiveThoughtsAtAll>
 				<cannotReceiveThoughts>
-					<li>NeedFood</li>
+					<li>NeedFood</li>-->
 					<!--<li>Naked</li>-->
-					<li>Pain</li>
+					<!--<li>Pain</li>
 					<li>SleepDisturbed</li>
 					<li>SleptOnGround</li>
 					<li>ArtifactMoodBoost</li>
 					<li>EnvironmentCold</li>
 					<li>EnvironmentHot</li>
 				</cannotReceiveThoughts>
-			</thoughtSettings>
+			</thoughtSettings>-->
 			<relationSettings>
 				<relationChanceModifierChild>0</relationChanceModifierChild>
 				<relationChanceModifierExLover>0</relationChanceModifierExLover>
@@ -297,12 +295,15 @@
 			<ImmunityGainSpeed>10</ImmunityGainSpeed>
 			<LeatherAmount>0</LeatherAmount>
 			<MeatAmount>0</MeatAmount>
-			<SocialImpact>0.9</SocialImpact>
+			<SocialImpact>1</SocialImpact>
 			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
-			<ATR_MaintenanceRetention>1.5</ATR_MaintenanceRetention>
+			<MHC_MaintenanceRetention>1</MHC_MaintenanceRetention>
+            <MHC_NutritionalIntakeEfficiency>0.5</MHC_NutritionalIntakeEfficiency>
+            <MHC_ChargingSpeed>1</MHC_ChargingSpeed>
+            <MHC_MechanicalNeedCapacity>1</MHC_MechanicalNeedCapacity>
 			<Mass>25</Mass>
-			<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>
+			<!--<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>-->
 		</statBases>
 		<tools>
 			<li>
@@ -348,16 +349,17 @@
 				<power>8</power>
 				<cooldownTime>1.2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
 		<race>
-
+			<hasGenders>true</hasGenders>
 			<thinkTreeMain>Humanlike</thinkTreeMain>
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
 			<makesFootprints>true</makesFootprints>
-			<lifeExpectancy>120</lifeExpectancy>
+			<lifeExpectancy>200</lifeExpectancy>
 			<leatherDef>Leather_Human</leatherDef>
 			<nameGenerator>NandroidStandard</nameGenerator>
 			<body>ATR_AndroidBody</body>
@@ -370,7 +372,7 @@
 			<specificMeatDef>Steel</specificMeatDef>
 
 			<baseBodySize>1.4</baseBodySize>
-			<gestationPeriodDays>1</gestationPeriodDays>
+			<!--<gestationPeriodDays>1</gestationPeriodDays>-->
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<lifeStageAges>
 				<li>
@@ -498,8 +500,8 @@
 	  <!-- <li>ATR_Install_OrganicCharger</li> -->
 	  
 	  <li>ATR_Install_AutonomousCore</li>
-	  <li>Install_ReceiverCore</li>
-	  <!-- <li>ATR_Install_SkyMindReceiver</li>
+	  <!--<li>Install_ReceiverCore</li>
+	   <li>ATR_Install_SkyMindReceiver</li>
 	  <li>ATR_RemoveSkyMindReceiver</li>
 	  <li>ATR_Install_SkyMindTransceiver</li>
 	  <li>ATR_RemoveOrganicSkyMindTransceiver</li> -->
@@ -538,6 +540,9 @@
 	  <li>ATR_Install_SanitaryFrame</li>
 	  <li>ATR_Install_MobilityFrame</li> -->
 	  
+	  <li>ATR_ApplyOverclocking</li>
+	  <li>ATR_ResetOverclocking</li>
+	  
 	  <li>InstallJarOpenerArm</li>
 	  <li>InstallStilettoArm</li>
 	  <li>InstallStilettoLeg</li>
@@ -549,10 +554,21 @@
 
 			<li>InstallCrudeSmellingS</li>
 			<li>InstallArchSmellingS</li> -->
-			<li>ATR_RemoveBodyPartAndroid</li>
-            <li>ATR_RestoreBodyPartAndroid</li>
+			<!--<li>ATR_RemoveBodyPartAndroid</li>
+            <li>ATR_RestoreBodyPartAndroid</li>-->
 			<!-- <li>ATR_ShutdownMechanical</li>
 			<li>ATR_RebootUnit</li> -->
+			
+			<li>MHC_RemoveMechanicalBodyPart</li>
+			<li>MHC_RestoreBodyPartMechanical</li>
+			<li>MHC_MechanicalShutdown</li>
+			<li>MHC_RepaintMechanical</li>
+			<li>MHC_DoEmergencyMaintenance</li>
+			<li>MHC_ReprogramDrone</li>
+			<li>MHC_RebootUnit</li>
+			<li>MHC_ExtractCoolant</li>
+			<li>MHC_CoolantInjection</li>
+			
 		</recipes>
 		<butcherProducts>
 			<Plasteel>40</Plasteel>
@@ -562,9 +578,39 @@
     <!-- <li Class="MOARANDROIDS.AndroidTweaker">
         <tweakCorpseRot>true</tweakCorpseRot>
     </li> -->
-			<li Class="ATReforged.ATR_MechTweaker">
+			<!--<li Class="ATReforged.ATR_MechTweaker">
                 <droneSkillLevel>8</droneSkillLevel>
-			</li>
+			</li>-->
+			<li Class="MechHumanlikes.MHC_MechanicalPawnExtension">
+                <droneSkillLevel>8</droneSkillLevel>
+                <useCustomNoneGenderNameMakers>true</useCustomNoneGenderNameMakers>
+                <sapientNoneGenderNameMaker>NandroidStandard</sapientNoneGenderNameMaker>
+                <droneNoneGenderNameMaker>NandroidStandard</droneNoneGenderNameMaker>
+                <letPawnKindHandleDroneBackstories>false</letPawnKindHandleDroneBackstories>
+                <droneChildhoodBackstoryDef>ATR_MechChildhoodDrone</droneChildhoodBackstoryDef>
+                <droneAdulthoodBackstoryDef>ATR_MechAdulthoodDrone</droneAdulthoodBackstoryDef>
+                <blacklistedNeeds>
+                    <li>DrugDesire</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                </blacklistedNeeds>
+                <blacklistedSapientNeeds>
+                    <li>RoomSize</li>
+                    <li>Comfort</li>
+                </blacklistedSapientNeeds>
+                <mechanicalNeeds>
+                    <li>MHC_Coolant</li>
+                    <li>MHC_Lubrication</li>
+                </mechanicalNeeds>
+            </li>
+            <li Class="ATReforged.ATR_PawnExtension">
+                <isAndroid>true</isAndroid>
+            </li>
+            <li MayRequire="Killathon.SkyMind.SkyMindNetwork" Class="SkyMind.SMN_PawnSkyMindExtension">
+                <defaultTransceiverImplant>ATR_AutonomousCore</defaultTransceiverImplant>
+                <defaultReceiverImplant>ATR_ReceiverCore</defaultReceiverImplant>
+            </li>
 		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 

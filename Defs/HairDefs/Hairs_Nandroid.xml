@@ -62,6 +62,17 @@
   </HairDef>
   
   <HairDef>
+    <defName>Nandroid_Hair_Amy</defName>
+    <label>Nandroid Amy hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairAmy</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <HairDef>
     <defName>Nandroid_Hair_Lulu</defName>
     <label>Nandroid Lulu hair</label>
     <styleGender>Female</styleGender>

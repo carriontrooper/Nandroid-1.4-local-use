@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <ThingDef ParentName="MHC_ChargingPodBase">
+	    <defName>NandroidDockingSeat</defName>
+        <label>Docking seat</label>
+        <description>A Sterling-made docking seat for nandroids to charge and backup memories to.</description>
+		<graphicData>
+            <texPath>Things/Buildings/NandroidDockingSeat/NandroidDockingSeat</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(3,3)</drawSize>
+        </graphicData>
+		<uiIconPath>Things/Buildings/NandroidDockingSeat/NandroidDockingSeat_south</uiIconPath>
+	    <costList>
+            <Steel>50</Steel>
+			<Plasteel>20</Plasteel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+		<statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <WorkToBuild>1800</WorkToBuild>
+            <Mass>25</Mass>
+            <BedRestEffectiveness>1.3</BedRestEffectiveness>
+            <Comfort>1</Comfort>
+        </statBases>
+        <building>
+            <bed_maxBodySize>4</bed_maxBodySize>
+        </building>
+		<size>(1,1)</size>
+	    <comps>
+	        <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>20</basePowerConsumption>
+	        </li>
+        </comps>
+    </ThingDef>
+	
+</Defs>

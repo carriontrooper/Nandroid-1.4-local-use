@@ -207,14 +207,14 @@
         </countRange>
       </li>
 	  <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>
                 <min>10</min>
                 <max>20</max>
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_PartPack</thingDef>
+                <thingDef>MHC_PartPack</thingDef>
                 <countRange>
                     <min>5</min>
                     <max>15</max>
@@ -273,14 +273,14 @@
         </countRange>
       </li>
 	  <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_RepairStimIntermediate</thingDef>
+                <thingDef>MHC_RepairStimIntermediate</thingDef>
                 <countRange>
                     <min>10</min>
                     <max>20</max>
                 </countRange>
             </li>
             <li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_PartPack</thingDef>
+                <thingDef>MHC_PartPack</thingDef>
                 <countRange>
                     <min>5</min>
                     <max>15</max>
@@ -387,7 +387,7 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-                <thingDef>ATR_RepairStimAdvanced</thingDef>
+                <thingDef>MHC_RepairStimAdvanced</thingDef>
                 <countRange>
                     <min>2</min>
                     <max>8</max>

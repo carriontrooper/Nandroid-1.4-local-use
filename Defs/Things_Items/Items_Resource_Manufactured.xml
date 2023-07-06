@@ -32,7 +32,7 @@
 				<useLabel>Starting up Nandroid</useLabel>
 				<useDuration>4000</useDuration>
 			</li>
-			<li Class="ATReforged.CompProperties_GenericSpawner">
+			<li Class="ATReforged.CompProperties_PawnSpawner">
                 <pawnKind>NandroidColonistUnbox</pawnKind>
             </li>
 			<li Class="CompProperties_UseEffect">
