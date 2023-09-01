@@ -5,7 +5,7 @@
 		<title>Nandroid</title>
 		<titleShort>Nandroid</titleShort>
 		<baseDesc>{PAWN_nameDef} is a Sterling brand Nandroid that was slated to go to an Urbworld, but somehow found themselves on the Rim.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<shuffleable>True</shuffleable>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -70,7 +70,7 @@
 		<title>Off-Brand Nandroid</title>
 		<titleShort>Off-Brand Nan</titleShort>
 		<baseDesc>{PAWN_nameDef} is an off-brand Nandroid-like robotic maid that was slated to go to an Urbworld, but somehow found themselves on the Rim.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<shuffleable>True</shuffleable>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -135,7 +135,7 @@
 		<title>High-Grade Nandroid</title>
 		<titleShort>High-Grade Nan</titleShort>
 		<baseDesc>{PAWN_nameDef} is a Sterling brand Nandroid that was built with higher specifications befitting to their Glitterworld destination, but somehow found themselves on the Rim.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<shuffleable>True</shuffleable>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -199,7 +199,7 @@
 		<title>Industrial Nandroid</title>
 		<titleShort>Industrial Nan</titleShort>
 		<baseDesc>{PAWN_nameDef} is a Sterling brand Nandroid whose specifications are fit for heavy industry, but somehow found themselves on the Rim.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<shuffleable>True</shuffleable>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -264,7 +264,7 @@
 		<title>Experimental Nandroid</title>
 		<titleShort>Test Nandroid</titleShort>
 		<baseDesc>{PAWN_nameDef} is an experimental model Sterling brand Nandroid that was slated to go to a research facility, but somehow found themselves on the Rim.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<shuffleable>True</shuffleable>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -328,7 +328,7 @@
 		<title>Milspec Nandroid</title>
 		<titleShort>Mil-Nan</titleShort>
 		<baseDesc>{PAWN_nameDef} is a Sterling brand Nandroid that is secretly built with military-grade specifications, but somehow found themselves on the Rim.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<shuffleable>True</shuffleable>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -393,7 +393,7 @@
 		<title>Custom Nandroid</title>
 		<titleShort>Custom Nan</titleShort>
 		<baseDesc>{PAWN_nameDef} is a custom-made Sterling brand Nandroid that was slated to go to an Urbworld, but somehow found themselves on the Rim.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<shuffleable>True</shuffleable>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -458,7 +458,7 @@
 		<title>Custom Nandroid</title>
 		<titleShort>Custom Nan</titleShort>
 		<baseDesc>{PAWN_nameDef} is a custom-made Sterling brand Nandroid that was slated to go to an Urbworld, but somehow found themselves on the Rim.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<shuffleable>True</shuffleable>
 		<slot>Childhood</slot>
 		<spawnCategories>
@@ -523,7 +523,7 @@
 		<title>Salvaged Nandroid</title>
 		<titleShort>Salvaged Nan</titleShort>
 		<baseDesc>{PAWN_nameDef} is a Sterling brand Nandroid that was deemed outmoded and scrapped, but somebody had salvaged and reassembled them on the Rim.</baseDesc>
-		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<shuffleable>True</shuffleable>
 		<slot>Childhood</slot>
 		<spawnCategories>

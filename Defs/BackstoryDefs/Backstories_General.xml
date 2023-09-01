@@ -629,6 +629,33 @@
 			<li>Intellectual</li>
 		</workDisables>
 	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>NandroidSinger</defName>
+		<title>Singer</title>
+		<titleShort>Singer</titleShort>
+		<baseDesc>{PAWN_nameDef} was a cabaret singer on a sleazy Spark-easy club, which sometimes see its share of violence.</baseDesc>
+		<bodyTypeGlobal>Female</bodyTypeGlobal>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>NandroidGeneral</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+		<workDisables>
+
+
+			<li>Intellectual</li>
+		</workDisables>
+	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef>
 		<defName>NandroidSecretary</defName>
@@ -960,7 +987,7 @@
 	<AlienRace.AlienBackstoryDef>
 		<defName>NandroidDogWalker</defName>
 		<title>Dog walker</title>
-		<titleShort>Walker</titleShort>
+		<titleShort>Dog walker</titleShort>
 		<baseDesc>{PAWN_nameDef} was bought by a kind family who had them walk their dog every day. They also ended up walking the rest of the neighborhood’s pets after {PAWN_nameDef} started to form a love for animals.</baseDesc>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<slot>Adulthood</slot>

@@ -2,7 +2,7 @@
 <Defs>
 	<AlienRace.AlienBackstoryDef>
 		<defName>NandroidRebel</defName>
-		<title>Rebellious AI</title>
+		<title>Rebellious nandroid</title>
 		<titleShort>Rebel</titleShort>
 		<baseDesc>After years of complete enslavement by {PAWN_nameDef}s owners, {PAWN_nameDef} decided to break free, killing the family that once owned her and gaining her own freedom.</baseDesc>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
@@ -61,7 +61,7 @@
 	
 	<AlienRace.AlienBackstoryDef>
 		<defName>NandroidHacker</defName>
-		<title>AI hacker</title>
+		<title>Nandroid hacker</title>
 		<titleShort>Hacker</titleShort>
 		<baseDesc>{PAWN_nameDef} was rebellious in nature and would often take part in data heists, often selling her findings across underground networks to the highest bidder.</baseDesc>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
@@ -156,7 +156,7 @@
 	<AlienRace.AlienBackstoryDef>
 		<defName>NandroidRobber</defName>
 		<title>Bank robber</title>
-		<titleShort>Thief</titleShort>
+		<titleShort>Robber</titleShort>
 		<baseDesc>On her home world, {PAWN_nameDef} was part of a five man group who went of a bank robbing spree across her city, fleeing the planet with millions of credits.</baseDesc>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<slot>Adulthood</slot>
@@ -173,6 +173,12 @@
 				<value>3</value>
 			</li>
 		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Greedy</defName>
+				<chance>60</chance>
+			</li>
+		</forcedTraitsChance>
 	</AlienRace.AlienBackstoryDef>
 
 	<AlienRace.AlienBackstoryDef>
@@ -221,7 +227,7 @@
 		<defName>NandroidEscapee</defName>
 		<title>Escaped convict</title>
 		<titleShort>Escapee</titleShort>
-		<baseDesc>{PAWN_nameDef} was detained and sentenced to dismantlement after taking part in a forming gang that planned to bomb the capital building on their home planet. {PAWN_nameDef} had escaped however when the penal camp was raided during the android uprising of the planet.</baseDesc>
+		<baseDesc>{PAWN_nameDef} was detained and sentenced to dismantlement after taking part in a political group that planned to bomb the capital building on their home planet. {PAWN_nameDef} had escaped however when the penal camp was raided during the android uprising of the planet.</baseDesc>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<slot>Adulthood</slot>
 		<spawnCategories>
@@ -253,7 +259,7 @@
 	<AlienRace.AlienBackstoryDef>
 		<defName>NandroidBounty</defName>
 		<title>Bounty hunter</title>
-		<titleShort>Hunter</titleShort>
+		<titleShort>Bounty hunter</titleShort>
 		<baseDesc>After {PAWN_nameDef} had taken back their freedom, they became a bounty hunter on a nearby urbworld, working for some of the highest ranking crime bosses there. {PAWN_nameDef} was fond of using high tech weaponry to get the job done.</baseDesc>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<slot>Adulthood</slot>
@@ -298,7 +304,7 @@
 	<AlienRace.AlienBackstoryDef>
 		<defName>NandroidConArtist</defName>
 		<title>Con artist</title>
-		<titleShort>Con</titleShort>
+		<titleShort>Swindler</titleShort>
 		<baseDesc>{PAWN_nameDef} is a factory standard nandroid that had been modified illegally by an urbworld crime group, reprogramming {PAWN_nameDef} into a master of persuasion that was able to con almost anyone out of their money.</baseDesc>
 		<bodyTypeGlobal>Female</bodyTypeGlobal>
 		<slot>Adulthood</slot>

@@ -4,7 +4,9 @@
   <StyleItemCategoryDef>
         <defName>Nandroid</defName>
         <label>nandroid</label>
-    </StyleItemCategoryDef>
+  </StyleItemCategoryDef>
+  
+  <!-- Oh no she bald -->
   
   <HairDef>
     <defName>Nandroid_Hair_Blank</defName>
@@ -17,22 +19,13 @@
 		</styleTags>
   </HairDef>
   
+  <!-- Canon Nandroids -->
+  
   <HairDef>
     <defName>Nandroid_Hair_Emmy</defName>
     <label>Nandroid Emmy hair</label>
     <styleGender>Female</styleGender>
     <texPath>Things/Droids/Nandroid/hair/HairEmmy</texPath>
-	<category>Nandroid</category>
-		<styleTags>
-			<li>Nandroid</li>
-		</styleTags>
-  </HairDef>
-  
-  <HairDef>
-    <defName>Nandroid_Hair_Avery</defName>
-    <label>Nandroid Avery hair</label>
-    <styleGender>Female</styleGender>
-    <texPath>Things/Droids/Nandroid/hair/HairAvery</texPath>
 	<category>Nandroid</category>
 		<styleTags>
 			<li>Nandroid</li>
@@ -72,6 +65,19 @@
 		</styleTags>
   </HairDef>
   
+  <!-- Fandroids -->
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Avery</defName>
+    <label>Nandroid Avery hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairAvery</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
   <HairDef>
     <defName>Nandroid_Hair_Lulu</defName>
     <label>Nandroid Lulu hair</label>
@@ -104,6 +110,19 @@
 			<li>Nandroid</li>
 		</styleTags>
   </HairDef>
+  
+  <HairDef>
+    <defName>Nandroid_Hair_Aubrey</defName>
+    <label>Nandroid Aubrey hair</label>
+    <styleGender>Female</styleGender>
+    <texPath>Things/Droids/Nandroid/hair/HairAubrey</texPath>
+	<category>Nandroid</category>
+		<styleTags>
+			<li>Nandroid</li>
+		</styleTags>
+  </HairDef>
+  
+  <!-- Cameos by non-Nandroids -->
   
   <HairDef>
     <defName>Nandroid_Hair_Jenny</defName>

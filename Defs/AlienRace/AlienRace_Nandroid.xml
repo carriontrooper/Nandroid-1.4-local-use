@@ -301,7 +301,7 @@
 			<MHC_MaintenanceRetention>1</MHC_MaintenanceRetention>
             <MHC_NutritionalIntakeEfficiency>0.5</MHC_NutritionalIntakeEfficiency>
             <MHC_ChargingSpeed>1</MHC_ChargingSpeed>
-            <MHC_MechanicalNeedCapacity>1</MHC_MechanicalNeedCapacity>
+            <!--<MHC_MechanicalNeedCapacity>1</MHC_MechanicalNeedCapacity>-->
 			<Mass>25</Mass>
 			<!--<MedicalSurgerySuccessChance>1</MedicalSurgerySuccessChance>-->
 		</statBases>
@@ -566,7 +566,8 @@
 			<li>MHC_DoEmergencyMaintenance</li>
 			<li>MHC_ReprogramDrone</li>
 			<li>MHC_RebootUnit</li>
-			<li>MHC_ExtractCoolant</li>
+			<!--<li>MHC_ExtractCoolant</li>-->
+			<li>MHC_LubricantInjection</li>
 			<li>MHC_CoolantInjection</li>
 			
 		</recipes>
@@ -600,8 +601,8 @@
                     <li>Comfort</li>
                 </blacklistedSapientNeeds>
                 <mechanicalNeeds>
-                    <li>MHC_Coolant</li>
-                    <li>MHC_Lubrication</li>
+                    <li><key>MHC_Coolant</key><value>0.5</value></li>
+                    <li><key>MHC_Lubrication</key><value>0.5</value></li>
                 </mechanicalNeeds>
             </li>
             <li Class="ATReforged.ATR_PawnExtension">

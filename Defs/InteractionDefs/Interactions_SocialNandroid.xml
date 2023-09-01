@@ -8,10 +8,10 @@
     <symbol>Things/Motes/NandroidMote</symbol>
     <initiatorThought>NandroidChat</initiatorThought>
     <initiatorXpGainSkill>Social</initiatorXpGainSkill>
-    <initiatorXpGainAmount>50</initiatorXpGainAmount>
+    <initiatorXpGainAmount>10</initiatorXpGainAmount>
     <recipientThought>NandroidChat</recipientThought>
     <recipientXpGainSkill>Social</recipientXpGainSkill>
-    <recipientXpGainAmount>50</recipientXpGainAmount>
+    <recipientXpGainAmount>10</recipientXpGainAmount>
     <logRulesInitiator>
       <rulesStrings>
         <li>r_logentry->[talkedabout] with [RECIPIENT_nameDef] about Nandroids.</li>
@@ -60,7 +60,7 @@
     </logRulesInitiator>
   </InteractionDef>
 
-  <InteractionDef>
+  <InteractionDef MayRequire="Killathon.MechHumanlikes.AndroidTiers">
     <defName>RoboticsChat2</defName>
     <label>talked about androids</label>
     <workerClass>InteractionWorker_DeepTalk</workerClass>
@@ -90,7 +90,7 @@
     </logRulesInitiator>
   </InteractionDef>
   
-  <InteractionDef>
+  <InteractionDef MayRequire="Killathon.SkyMind.SkyMindNetwork">
     <defName>ATPP_SkyMindChat</defName>
     <label>talked about SkyMind</label>
     <workerClass>InteractionWorker_DeepTalk</workerClass>
