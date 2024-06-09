@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>[1.4] Android Tiers Nandroids</name>
+  <name>[1.5] Android Tiers Nandroids</name>
   <author>Indonesian Gentleman</author>
   <packageId>IndoGent.Nandroids.localtest</packageId>
   <supportedVersions>
-    <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   <description>
 	Add-on to Android Tiers, requires Android Tiers. Adds Nandroids!
